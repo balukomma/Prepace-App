@@ -1,0 +1,33 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Blue Circular Background -->
+    <path
+        android:fillColor="#5EA8E6"
+        android:pathData="M100,100m-90,0a90,90 0,1 1,180 0a90,90 0,1 1,-180 0" />
+    
+    <!-- Face/Neck -->
+    <path
+        android:fillColor="#FFC1A1"
+        android:pathData="M100,140c20,0 35,-15 35,-35v-10c0,-20 -15,-35 -35,-35c-20,0 -35,15 -35,35v10c0,20 15,35 35,35z" />
+    
+    <!-- Dark Hair -->
+    <path
+        android:fillColor="#2D2E32"
+        android:pathData="M65,95c0,-25 15,-40 35,-40c20,0 35,15 35,40l5,5l-5,5c-5,10 -15,15 -35,15c-20,0 -30,-5 -35,-15l-5,-5l5,-5z" />
+    <path
+        android:fillColor="#2D2E32"
+        android:pathData="M100,55c15,0 30,10 35,25l-10,-5c-10,-5 -25,-5 -35,5c-10,-5 -25,-5 -35,5l-10,-5c5,-15 20,-25 35,-25z" />
+
+    <!-- Dark Hoodie -->
+    <path
+        android:fillColor="#2D2E32"
+        android:pathData="M40,180c0,-20 20,-45 60,-45c40,0 60,25 60,45v20h-120v-20z" />
+    
+    <!-- Hoodie Inner/Shirt -->
+    <path
+        android:fillColor="#DCE6F1"
+        android:pathData="M85,135l15,15l15,-15c0,10 -10,15 -15,15c-5,0 -15,-5 -15,-15z" />
+</vector>

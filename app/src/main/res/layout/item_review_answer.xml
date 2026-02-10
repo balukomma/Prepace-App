@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="2dp"
+    app:cardBackgroundColor="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:id="@+id/tvQuestionNumber"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:text="1"
+                android:gravity="center"
+                android:background="@drawable/bg_circle_number"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/tvQuestionText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Question text goes here..."
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginStart="12dp"/>
+        </LinearLayout>
+        
+        <!-- Options & Status Container -->
+        <!-- We will dynamically color or show specific text here. 
+             Ideally for a review, we show the user's choice vs correct choice.
+             Simulating the "Card" style for options as requested. -->
+             
+        <!-- Options Container -->
+        <LinearLayout
+            android:id="@+id/layoutOptions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp">
+            
+            <TextView
+                android:id="@+id/tvOptionA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bg_option_review_default"
+                android:padding="12dp"
+                android:textColor="#555555"
+                android:textSize="14sp"
+                android:text="Option A"/>
+
+            <TextView
+                android:id="@+id/tvOptionB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bg_option_review_default"
+                android:padding="12dp"
+                android:textColor="#555555"
+                android:textSize="14sp"
+                android:text="Option B"/>
+
+            <TextView
+                android:id="@+id/tvOptionC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bg_option_review_default"
+                android:padding="12dp"
+                android:textColor="#555555"
+                android:textSize="14sp"
+                android:text="Option C"/>
+
+            <TextView
+                android:id="@+id/tvOptionD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bg_option_review_default"
+                android:padding="12dp"
+                android:textColor="#555555"
+                android:textSize="14sp"
+                android:text="Option D"/>
+                
+        </LinearLayout>
+
+        <!-- Explanation -->
+        <LinearLayout
+            android:id="@+id/layoutExplanation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#E3F2FD"
+            android:padding="12dp"
+            android:layout_marginTop="16dp"
+            android:visibility="visible"
+            android:layout_gravity="bottom">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+                <ImageView 
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_idea_bulb" 
+                    android:tint="#1976D2"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Explanation"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:textColor="#1976D2"
+                    android:layout_marginStart="8dp"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvExplanation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Detailed explanation of the answer."
+                android:textColor="#444444"
+                android:textSize="14sp"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginTop="6dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

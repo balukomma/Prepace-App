@@ -1,0 +1,1142 @@
+{
+  "categories": [
+    {
+      "name": "Aptitude",
+      "quizzes": [
+        {
+          "title": "Basic Arithmetic",
+          "difficulty": "Easy",
+          "description": "Test your fundamental math skills",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "What is 25% of 400?",
+              "optionA": "75",
+              "optionB": "100",
+              "optionC": "125",
+              "optionD": "150",
+              "correctAnswerIndex": 1,
+              "explanation": "25% is 1/4. 400 / 4 = 100."
+            },
+            {
+              "questionText": "If a car travels 60 km in 1.5 hours, what is its speed?",
+              "optionA": "30 km/h",
+              "optionB": "40 km/h",
+              "optionC": "45 km/h",
+              "optionD": "50 km/h",
+              "correctAnswerIndex": 1,
+              "explanation": "Speed = Distance/Time = 60 / 1.5 = 40 km/h."
+            },
+            {
+              "questionText": "Solve: 12 x 12 - 44?",
+              "optionA": "90",
+              "optionB": "100",
+              "optionC": "110",
+              "optionD": "144",
+              "correctAnswerIndex": 1,
+              "explanation": "12 x 12 = 144. Then 144 - 44 = 100."
+            },
+            {
+              "questionText": "What is the square root of 225?",
+              "optionA": "12",
+              "optionB": "13",
+              "optionC": "14",
+              "optionD": "15",
+              "correctAnswerIndex": 3,
+              "explanation": "15 x 15 = 225."
+            },
+            {
+              "questionText": "The average of 5 numbers is 20. The sum is:",
+              "optionA": "80",
+              "optionB": "90",
+              "optionC": "100",
+              "optionD": "120",
+              "correctAnswerIndex": 2,
+              "explanation": "Sum = Average x Count = 20 x 5 = 100."
+            },
+            {
+              "questionText": "If A is 20% more than B, and B is 100, what is A?",
+              "optionA": "110",
+              "optionB": "120",
+              "optionC": "130",
+              "optionD": "140",
+              "correctAnswerIndex": 1,
+              "explanation": "20% of 100 is 20. So A = 100 + 20 = 120."
+            },
+            {
+              "questionText": "A train 100m long crosses a pole in 10s. Speed?",
+              "optionA": "10 m/s",
+              "optionB": "20 m/s",
+              "optionC": "30 m/s",
+              "optionD": "40 m/s",
+              "correctAnswerIndex": 0,
+              "explanation": "Speed = Distance/Time = 100m / 10s = 10 m/s."
+            },
+            {
+              "questionText": "Ratio of 1 hour to 300 seconds is:",
+              "optionA": "10:1",
+              "optionB": "12:1",
+              "optionC": "15:1",
+              "optionD": "20:1",
+              "correctAnswerIndex": 1,
+              "explanation": "1 hour = 3600 seconds. Ratio = 3600 : 300 = 36 : 3 = 12 : 1."
+            },
+            {
+              "questionText": "Cost price is 100, Selling price is 120. Profit %?",
+              "optionA": "15%",
+              "optionB": "20%",
+              "optionC": "25%",
+              "optionD": "30%",
+              "correctAnswerIndex": 1,
+              "explanation": "Profit = 120 - 100 = 20. Profit % = (20/100) * 100 = 20%."
+            },
+            {
+              "questionText": "Simple interest on 1000 for 2 years at 5% is:",
+              "optionA": "50",
+              "optionB": "100",
+              "optionC": "150",
+              "optionD": "200",
+              "correctAnswerIndex": 1,
+              "explanation": "SI = (P*R*T)/100 = (1000*5*2)/100 = 100."
+            }
+          ]
+        },
+        {
+          "title": "Advanced Calculations",
+          "difficulty": "Hard",
+          "description": "Challenge yourself with complex problems",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "Derivative of x^2 is:",
+              "optionA": "x",
+              "optionB": "2x",
+              "optionC": "x^2",
+              "optionD": "2",
+              "correctAnswerIndex": 1,
+              "explanation": "The power rule states d/dx(x^n) = nx^(n-1). So, d/dx(x^2) = 2x."
+            },
+            {
+              "questionText": "Integral of 2x dx is:",
+              "optionA": "x^2",
+              "optionB": "2x^2",
+              "optionC": "x",
+              "optionD": "2x",
+              "correctAnswerIndex": 0,
+              "explanation": "The integral of 2x is x^2 + C. Using power rule integration: 2 * (x^2)/2 = x^2."
+            },
+            {
+              "questionText": "Log(1) is equal to:",
+              "optionA": "0",
+              "optionB": "1",
+              "optionC": "10",
+              "optionD": "Undefined",
+              "correctAnswerIndex": 0,
+              "explanation": "The logarithm of 1 to any base is always 0 because any number raised to power 0 is 1."
+            },
+            {
+              "questionText": "Value of Sin(90):",
+              "optionA": "0",
+              "optionB": "1",
+              "optionC": "-1",
+              "optionD": "0.5",
+              "correctAnswerIndex": 1,
+              "explanation": "Sin(90 degrees) or Sin(π/2) is equal to 1."
+            },
+            {
+              "questionText": "If x + y = 10 and x - y = 4, value of x?",
+              "optionA": "5",
+              "optionB": "6",
+              "optionC": "7",
+              "optionD": "8",
+              "correctAnswerIndex": 2,
+              "explanation": "Adding equations: (x+y) + (x-y) = 10+4 => 2x=14 => x=7."
+            },
+            {
+              "questionText": "Volume of sphere with radius r:",
+              "optionA": "4/3 πr^3",
+              "optionB": "πr^2",
+              "optionC": "2πr",
+              "optionD": "4πr^2",
+              "correctAnswerIndex": 0,
+              "explanation": "The formula for the volume of a sphere is V = 4/3 πr^3."
+            },
+            {
+              "questionText": "Roots of x^2 - 5x + 6 = 0 are:",
+              "optionA": "2, 3",
+              "optionB": "1, 6",
+              "optionC": "-2, -3",
+              "optionD": "-1, -6",
+              "correctAnswerIndex": 0,
+              "explanation": "(x-2)(x-3)=0 gives roots x=2 and x=3. Check: 2^2-5(2)+6=0."
+            },
+            {
+              "questionText": "Limit x->0 of (sin x)/x is:",
+              "optionA": "0",
+              "optionB": "1",
+              "optionC": "Undefined",
+              "optionD": "Infinity",
+              "correctAnswerIndex": 1,
+              "explanation": "This is a standard limit identity: lim(x->0) (sin x)/x = 1."
+            },
+            {
+              "questionText": "Probability of drawing Ace from deck:",
+              "optionA": "1/13",
+              "optionB": "1/52",
+              "optionC": "4/13",
+              "optionD": "1/4",
+              "correctAnswerIndex": 0,
+              "explanation": "There are 4 aces in a deck of 52 cards. Probability = 4/52 = 1/13."
+            },
+            {
+              "questionText": "12! / 10! =",
+              "optionA": "132",
+              "optionB": "120",
+              "optionC": "2",
+              "optionD": "12",
+              "correctAnswerIndex": 0,
+              "explanation": "12! = 12 × 11 × 10!. So 12!/10! = 12 × 11 = 132."
+            }
+          ]
+        },
+        {
+          "title": "Number Properties",
+          "difficulty": "Medium",
+          "description": "Understanding properties of numbers",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "What is 25% of 400?",
+              "optionA": "75",
+              "optionB": "100",
+              "optionC": "125",
+              "optionD": "150",
+              "correctAnswerIndex": 1,
+              "explanation": "25% is 1/4. 400 / 4 = 100."
+            }
+          ]
+        },
+        {
+          "title": "Geometry Basics",
+          "difficulty": "Easy",
+          "description": "Lines, angles and shapes",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "What is 25% of 400?",
+              "optionA": "75",
+              "optionB": "100",
+              "optionC": "125",
+              "optionD": "150",
+              "correctAnswerIndex": 1,
+              "explanation": "25% is 1/4. 400 / 4 = 100."
+            }
+          ]
+        },
+        {
+          "title": "Profit and Loss",
+          "difficulty": "Medium",
+          "description": "Calculate profits, losses and discounts",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "What is 25% of 400?",
+              "optionA": "75",
+              "optionB": "100",
+              "optionC": "125",
+              "optionD": "150",
+              "correctAnswerIndex": 1,
+              "explanation": "25% is 1/4. 400 / 4 = 100."
+            }
+          ]
+        },
+        {
+          "title": "Time and Work",
+          "difficulty": "Hard",
+          "description": "Solve time and work efficiency problems",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "What is 25% of 400?",
+              "optionA": "75",
+              "optionB": "100",
+              "optionC": "125",
+              "optionD": "150",
+              "correctAnswerIndex": 1,
+              "explanation": "25% is 1/4. 400 / 4 = 100."
+            }
+          ]
+        },
+        {
+          "title": "Speed, Time and Distance",
+          "difficulty": "Medium",
+          "description": "Relate speed, time and distance",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "What is 25% of 400?",
+              "optionA": "75",
+              "optionB": "100",
+              "optionC": "125",
+              "optionD": "150",
+              "correctAnswerIndex": 1,
+              "explanation": "25% is 1/4. 400 / 4 = 100."
+            }
+          ]
+        },
+        {
+          "title": "Simple and Compound Interest",
+          "difficulty": "Easy",
+          "description": "Calculate interest rates over time",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "What is 25% of 400?",
+              "optionA": "75",
+              "optionB": "100",
+              "optionC": "125",
+              "optionD": "150",
+              "correctAnswerIndex": 1,
+              "explanation": "25% is 1/4. 400 / 4 = 100."
+            }
+          ]
+        },
+        {
+          "title": "Ratios and Proportions",
+          "difficulty": "Easy",
+          "description": "Compare quantities and ratios",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "What is 25% of 400?",
+              "optionA": "75",
+              "optionB": "100",
+              "optionC": "125",
+              "optionD": "150",
+              "correctAnswerIndex": 1,
+              "explanation": "25% is 1/4. 400 / 4 = 100."
+            }
+          ]
+        },
+        {
+          "title": "Permutations and Combinations",
+          "difficulty": "Hard",
+          "description": "Count possibilities and arrangements",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "What is 25% of 400?",
+              "optionA": "75",
+              "optionB": "100",
+              "optionC": "125",
+              "optionD": "150",
+              "correctAnswerIndex": 1,
+              "explanation": "25% is 1/4. 400 / 4 = 100."
+            }
+          ]
+        },
+        {
+          "title": "Probability",
+          "difficulty": "Medium",
+          "description": "Calculate likelihood of events",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "What is 25% of 400?",
+              "optionA": "75",
+              "optionB": "100",
+              "optionC": "125",
+              "optionD": "150",
+              "correctAnswerIndex": 1,
+              "explanation": "25% is 1/4. 400 / 4 = 100."
+            }
+          ]
+        },
+        {
+          "title": "Data Interpretation",
+          "difficulty": "Hard",
+          "description": "Analyze data from charts and graphs",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "What is 25% of 400?",
+              "optionA": "75",
+              "optionB": "100",
+              "optionC": "125",
+              "optionD": "150",
+              "correctAnswerIndex": 1,
+              "explanation": "25% is 1/4. 400 / 4 = 100."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Reasoning",
+      "quizzes": [
+        {
+          "title": "Logical Patterns",
+          "difficulty": "Medium",
+          "description": "Identify patterns and sequences",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
+              "optionA": "(1/3)",
+              "optionB": "(1/8)",
+              "optionC": "(2/8)",
+              "optionD": "(1/16)",
+              "correctAnswerIndex": 1,
+              "explanation": "Each number is divided by 2. Next is 1/4 divided by 2 = 1/8."
+            },
+            {
+              "questionText": "SCD, TEF, UGH, ____, WKL",
+              "optionA": "CMN",
+              "optionB": "UJI",
+              "optionC": "VIJ",
+              "optionD": "IJT",
+              "correctAnswerIndex": 2,
+              "explanation": "First letters: S, T, U, V, W. Second: C, E, G, I, K. Third: D, F, H, J, L. Answer is VIJ."
+            },
+            {
+              "questionText": "Which word does not belong with the others?",
+              "optionA": "Parsley",
+              "optionB": "Basil",
+              "optionC": "Dill",
+              "optionD": "Mayonnaise",
+              "correctAnswerIndex": 3,
+              "explanation": "Parsley, Basil, and Dill are herbs. Mayonnaise is a sauce."
+            },
+            {
+              "questionText": "Melt is to Liquid as Freeze is to:",
+              "optionA": "Ice",
+              "optionB": "Solid",
+              "optionC": "Condense",
+              "optionD": "Crystal",
+              "correctAnswerIndex": 1,
+              "explanation": "Melting changes state to liquid. Freezing changes state to solid."
+            },
+            {
+              "questionText": "Pointing to a photograph, a man said, 'I have no brother or sister but that man's father is my father's son.' Whose photograph was it?",
+              "optionA": "His own",
+              "optionB": "His Son",
+              "optionC": "His Father",
+              "optionD": "His Nephew",
+              "correctAnswerIndex": 1,
+              "explanation": "Since he has no siblings, 'my father's son' is himself. So 'that man's father is [me]'. It is his son's photo."
+            },
+            {
+              "questionText": "A, P, R, X, S and Z are sitting in a row. S and Z are in the centre. A and P are at the ends. R is sitting to the left of A. Who is to the right of P?",
+              "optionA": "A",
+              "optionB": "X",
+              "optionC": "S",
+              "optionD": "Z",
+              "correctAnswerIndex": 1,
+              "explanation": "Arrangement: P X S Z R A. The person to the right of P is X."
+            },
+            {
+              "questionText": "Statement: 'All cars are cats'. Conclusion: 'Some cats are cars'.",
+              "optionA": "True",
+              "optionB": "False",
+              "optionC": "Uncertain",
+              "optionD": "None",
+              "correctAnswerIndex": 0,
+              "explanation": "If all cars are cats, the set of cars is inside cats. Hence, the intersection exists, so some cats are indeed cars."
+            },
+            {
+              "questionText": "Find the odd one out.",
+              "optionA": "Ear",
+              "optionB": "Eye",
+              "optionC": "Nose",
+              "optionD": "Kidney",
+              "correctAnswerIndex": 3,
+              "explanation": "Ear, Eye, and Nose are external sense organs. Kidney is an internal organ."
+            },
+            {
+              "questionText": "If CODE is coded as DPEF, how is TEAM coded?",
+              "optionA": "UFBN",
+              "optionB": "SFBN",
+              "optionC": "UFB",
+              "optionD": "VFBN",
+              "correctAnswerIndex": 0,
+              "explanation": "Each letter is shifted forward by 1 (C->D, O->P...). T->U, E->F, A->B, M->N. Answer is UFBN."
+            },
+            {
+              "questionText": "Arrange the words: 1. Key 2. Door 3. Lock 4. Room",
+              "optionA": "1,3,2,4",
+              "optionB": "1,2,3,4",
+              "optionC": "4,2,3,1",
+              "optionD": "1,3,4,2",
+              "correctAnswerIndex": 0,
+              "explanation": "Logical order: Key -> Lock -> Door -> Room."
+            }
+          ]
+        },
+        {
+          "title": "Verbal Reasoning",
+          "difficulty": "Easy",
+          "description": "Analyze verbal arguments",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
+              "optionA": "(1/3)",
+              "optionB": "(1/8)",
+              "optionC": "(2/8)",
+              "optionD": "(1/16)",
+              "correctAnswerIndex": 1,
+              "explanation": "Each number is divided by 2. Next is 1/4 divided by 2 = 1/8."
+            }
+          ]
+        },
+        {
+          "title": "Coding-Decoding",
+          "difficulty": "Hard",
+          "description": "Crack the codes",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
+              "optionA": "(1/3)",
+              "optionB": "(1/8)",
+              "optionC": "(2/8)",
+              "optionD": "(1/16)",
+              "correctAnswerIndex": 1,
+              "explanation": "Each number is divided by 2. Next is 1/4 divided by 2 = 1/8."
+            }
+          ]
+        },
+        {
+          "title": "Blood Relations",
+          "difficulty": "Medium",
+          "description": "Deduce family relationships",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
+              "optionA": "(1/3)",
+              "optionB": "(1/8)",
+              "optionC": "(2/8)",
+              "optionD": "(1/16)",
+              "correctAnswerIndex": 1,
+              "explanation": "Each number is divided by 2. Next is 1/4 divided by 2 = 1/8."
+            }
+          ]
+        },
+        {
+          "title": "Direction Sense",
+          "difficulty": "Easy",
+          "description": "Solve direction and distance problems",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
+              "optionA": "(1/3)",
+              "optionB": "(1/8)",
+              "optionC": "(2/8)",
+              "optionD": "(1/16)",
+              "correctAnswerIndex": 1,
+              "explanation": "Each number is divided by 2. Next is 1/4 divided by 2 = 1/8."
+            }
+          ]
+        },
+        {
+          "title": "Syllogism",
+          "difficulty": "Hard",
+          "description": "Deduce logical conclusions from statements",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
+              "optionA": "(1/3)",
+              "optionB": "(1/8)",
+              "optionC": "(2/8)",
+              "optionD": "(1/16)",
+              "correctAnswerIndex": 1,
+              "explanation": "Each number is divided by 2. Next is 1/4 divided by 2 = 1/8."
+            }
+          ]
+        },
+        {
+          "title": "Seating Arrangement",
+          "difficulty": "Hard",
+          "description": "Arrange people or objects based on rules",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
+              "optionA": "(1/3)",
+              "optionB": "(1/8)",
+              "optionC": "(2/8)",
+              "optionD": "(1/16)",
+              "correctAnswerIndex": 1,
+              "explanation": "Each number is divided by 2. Next is 1/4 divided by 2 = 1/8."
+            }
+          ]
+        },
+        {
+          "title": "Analogies",
+          "difficulty": "Easy",
+          "description": "Find relationships between pairs",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
+              "optionA": "(1/3)",
+              "optionB": "(1/8)",
+              "optionC": "(2/8)",
+              "optionD": "(1/16)",
+              "correctAnswerIndex": 1,
+              "explanation": "Each number is divided by 2. Next is 1/4 divided by 2 = 1/8."
+            }
+          ]
+        },
+        {
+          "title": "Series Completion",
+          "difficulty": "Medium",
+          "description": "Complete number or letter series",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
+              "optionA": "(1/3)",
+              "optionB": "(1/8)",
+              "optionC": "(2/8)",
+              "optionD": "(1/16)",
+              "correctAnswerIndex": 1,
+              "explanation": "Each number is divided by 2. Next is 1/4 divided by 2 = 1/8."
+            }
+          ]
+        },
+        {
+          "title": "Statement and Assumption",
+          "difficulty": "Hard",
+          "description": "Identify implicit assumptions",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
+              "optionA": "(1/3)",
+              "optionB": "(1/8)",
+              "optionC": "(2/8)",
+              "optionD": "(1/16)",
+              "correctAnswerIndex": 1,
+              "explanation": "Each number is divided by 2. Next is 1/4 divided by 2 = 1/8."
+            }
+          ]
+        },
+        {
+          "title": "Cause and Effect",
+          "difficulty": "Medium",
+          "description": "Determine the relationship between events",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
+              "optionA": "(1/3)",
+              "optionB": "(1/8)",
+              "optionC": "(2/8)",
+              "optionD": "(1/16)",
+              "correctAnswerIndex": 1,
+              "explanation": "Each number is divided by 2. Next is 1/4 divided by 2 = 1/8."
+            }
+          ]
+        },
+        {
+          "title": "Logical Deduction",
+          "difficulty": "Hard",
+          "description": "Derive conclusions from premises",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
+              "optionA": "(1/3)",
+              "optionB": "(1/8)",
+              "optionC": "(2/8)",
+              "optionD": "(1/16)",
+              "correctAnswerIndex": 1,
+              "explanation": "Each number is divided by 2. Next is 1/4 divided by 2 = 1/8."
+            }
+          ]
+        },
+        {
+          "title": "Venn Diagrams",
+          "difficulty": "Easy",
+          "description": "Represent sets and relationships visually",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
+              "optionA": "(1/3)",
+              "optionB": "(1/8)",
+              "optionC": "(2/8)",
+              "optionD": "(1/16)",
+              "correctAnswerIndex": 1,
+              "explanation": "Each number is divided by 2. Next is 1/4 divided by 2 = 1/8."
+            }
+          ]
+        },
+        {
+          "title": "Cube and Dice",
+          "difficulty": "Medium",
+          "description": "Spatial reasoning with cubes",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
+              "optionA": "(1/3)",
+              "optionB": "(1/8)",
+              "optionC": "(2/8)",
+              "optionD": "(1/16)",
+              "correctAnswerIndex": 1,
+              "explanation": "Each number is divided by 2. Next is 1/4 divided by 2 = 1/8."
+            }
+          ]
+        },
+        {
+          "title": "Clock and Calendar",
+          "difficulty": "Medium",
+          "description": "Solve time and calendar problems",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
+              "optionA": "(1/3)",
+              "optionB": "(1/8)",
+              "optionC": "(2/8)",
+              "optionD": "(1/16)",
+              "correctAnswerIndex": 1,
+              "explanation": "Each number is divided by 2. Next is 1/4 divided by 2 = 1/8."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Technical",
+      "quizzes": [
+        {
+          "title": "JavaScript Basics",
+          "difficulty": "Easy",
+          "description": "Test your JavaScript fundamentals",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "What does HTML stand for?",
+              "optionA": "Hyper Text Preprocessor",
+              "optionB": "Hyper Text Markup Language",
+              "optionC": "Hyper Text Multiple Language",
+              "optionD": "Hyper Tool Multi Language",
+              "correctAnswerIndex": 1,
+              "explanation": "HTML stands for Hyper Text Markup Language."
+            },
+            {
+              "questionText": "Which language is used for styling web pages?",
+              "optionA": "HTML",
+              "optionB": "JQuery",
+              "optionC": "CSS",
+              "optionD": "XML",
+              "correctAnswerIndex": 2,
+              "explanation": "CSS (Cascading Style Sheets) is used for styling."
+            },
+            {
+              "questionText": "Which is not a Java keyword?",
+              "optionA": "static",
+              "optionB": "Boolean",
+              "optionC": "void",
+              "optionD": "private",
+              "correctAnswerIndex": 1,
+              "explanation": "Boolean is a wrapper class, 'boolean' (lowercase) is the keyword."
+            },
+            {
+              "questionText": "Which of the following is a database management system?",
+              "optionA": "MySQL",
+              "optionB": "Oracle",
+              "optionC": "Both A and B",
+              "optionD": "None",
+              "correctAnswerIndex": 2,
+              "explanation": "Both MySQL and Oracle are popular DBMS."
+            },
+            {
+              "questionText": "What is the extension of a Java class file?",
+              "optionA": ".js",
+              "optionB": ".class",
+              "optionC": ".txt",
+              "optionD": ".java",
+              "correctAnswerIndex": 1,
+              "explanation": "Compiled Java files have the .class extension. Source files are .java."
+            },
+            {
+              "questionText": "Which company developed Android?",
+              "optionA": "Apple",
+              "optionB": "Google",
+              "optionC": "Microsoft",
+              "optionD": "Nokia",
+              "correctAnswerIndex": 1,
+              "explanation": "Android was developed by Android Inc., which Google bought in 2005."
+            },
+            {
+              "questionText": "What is the primary key in a database table?",
+              "optionA": "Unique ID",
+              "optionB": "First Column",
+              "optionC": "Last Column",
+              "optionD": "None",
+              "correctAnswerIndex": 0,
+              "explanation": "A primary key uniquely identifies each record in a table."
+            },
+            {
+              "questionText": "Which loop is guaranteed to execute at least once?",
+              "optionA": "for",
+              "optionB": "while",
+              "optionC": "do-while",
+              "optionD": "None",
+              "correctAnswerIndex": 2,
+              "explanation": "A do-while loop executes the body before checking the condition, ensuring at least one run."
+            },
+            {
+              "questionText": "Arrays in Java are:",
+              "optionA": "Object references",
+              "optionB": "Primitive data type",
+              "optionC": "Objects",
+              "optionD": "None",
+              "correctAnswerIndex": 2,
+              "explanation": "In Java, arrays are objects."
+            },
+            {
+              "questionText": "What is the size of int in Java?",
+              "optionA": "16 bit",
+              "optionB": "32 bit",
+              "optionC": "64 bit",
+              "optionD": "8 bit",
+              "correctAnswerIndex": 1,
+              "explanation": "Primitive int in Java is always 32-bit signed two's complement integer."
+            }
+          ]
+        },
+        {
+          "title": "Python Data Types",
+          "difficulty": "Medium",
+          "description": "Core Python concepts",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "What does HTML stand for?",
+              "optionA": "Hyper Text Preprocessor",
+              "optionB": "Hyper Text Markup Language",
+              "optionC": "Hyper Text Multiple Language",
+              "optionD": "Hyper Tool Multi Language",
+              "correctAnswerIndex": 1,
+              "explanation": "HTML stands for Hyper Text Markup Language."
+            }
+          ]
+        },
+        {
+          "title": "SQL Queries",
+          "difficulty": "Hard",
+          "description": "Advanced database querying",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "What does HTML stand for?",
+              "optionA": "Hyper Text Preprocessor",
+              "optionB": "Hyper Text Markup Language",
+              "optionC": "Hyper Text Multiple Language",
+              "optionD": "Hyper Tool Multi Language",
+              "correctAnswerIndex": 1,
+              "explanation": "HTML stands for Hyper Text Markup Language."
+            }
+          ]
+        },
+        {
+          "title": "Java Core",
+          "difficulty": "Medium",
+          "description": "Fundamental concepts of Java",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "What does HTML stand for?",
+              "optionA": "Hyper Text Preprocessor",
+              "optionB": "Hyper Text Markup Language",
+              "optionC": "Hyper Text Multiple Language",
+              "optionD": "Hyper Tool Multi Language",
+              "correctAnswerIndex": 1,
+              "explanation": "HTML stands for Hyper Text Markup Language."
+            }
+          ]
+        },
+        {
+          "title": "C++ Pointers",
+          "difficulty": "Hard",
+          "description": "Mastering memory management in C++",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "What does HTML stand for?",
+              "optionA": "Hyper Text Preprocessor",
+              "optionB": "Hyper Text Markup Language",
+              "optionC": "Hyper Text Multiple Language",
+              "optionD": "Hyper Tool Multi Language",
+              "correctAnswerIndex": 1,
+              "explanation": "HTML stands for Hyper Text Markup Language."
+            }
+          ]
+        },
+        {
+          "title": "Data Structures",
+          "difficulty": "Hard",
+          "description": "Arrays, Linked Lists, Trees and more",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "What does HTML stand for?",
+              "optionA": "Hyper Text Preprocessor",
+              "optionB": "Hyper Text Markup Language",
+              "optionC": "Hyper Text Multiple Language",
+              "optionD": "Hyper Tool Multi Language",
+              "correctAnswerIndex": 1,
+              "explanation": "HTML stands for Hyper Text Markup Language."
+            }
+          ]
+        },
+        {
+          "title": "Algorithms",
+          "difficulty": "Hard",
+          "description": "Sorting, Searching and Optimization",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "What does HTML stand for?",
+              "optionA": "Hyper Text Preprocessor",
+              "optionB": "Hyper Text Markup Language",
+              "optionC": "Hyper Text Multiple Language",
+              "optionD": "Hyper Tool Multi Language",
+              "correctAnswerIndex": 1,
+              "explanation": "HTML stands for Hyper Text Markup Language."
+            }
+          ]
+        },
+        {
+          "title": "Object-Oriented Programming",
+          "difficulty": "Medium",
+          "description": "Classes, Objects, Inheritance, Polymorphism",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "What does HTML stand for?",
+              "optionA": "Hyper Text Preprocessor",
+              "optionB": "Hyper Text Markup Language",
+              "optionC": "Hyper Text Multiple Language",
+              "optionD": "Hyper Tool Multi Language",
+              "correctAnswerIndex": 1,
+              "explanation": "HTML stands for Hyper Text Markup Language."
+            }
+          ]
+        },
+        {
+          "title": "Operating Systems",
+          "difficulty": "Medium",
+          "description": "Processes, Threads and Memory Management",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "What does HTML stand for?",
+              "optionA": "Hyper Text Preprocessor",
+              "optionB": "Hyper Text Markup Language",
+              "optionC": "Hyper Text Multiple Language",
+              "optionD": "Hyper Tool Multi Language",
+              "correctAnswerIndex": 1,
+              "explanation": "HTML stands for Hyper Text Markup Language."
+            }
+          ]
+        },
+        {
+          "title": "Computer Networks",
+          "difficulty": "Medium",
+          "description": "OSI Model, TCP/IP and Protocols",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "What does HTML stand for?",
+              "optionA": "Hyper Text Preprocessor",
+              "optionB": "Hyper Text Markup Language",
+              "optionC": "Hyper Text Multiple Language",
+              "optionD": "Hyper Tool Multi Language",
+              "correctAnswerIndex": 1,
+              "explanation": "HTML stands for Hyper Text Markup Language."
+            }
+          ]
+        },
+        {
+          "title": "DBMS Concepts",
+          "difficulty": "Medium",
+          "description": "Normalization, Transactions and Acid Properties",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "What does HTML stand for?",
+              "optionA": "Hyper Text Preprocessor",
+              "optionB": "Hyper Text Markup Language",
+              "optionC": "Hyper Text Multiple Language",
+              "optionD": "Hyper Tool Multi Language",
+              "correctAnswerIndex": 1,
+              "explanation": "HTML stands for Hyper Text Markup Language."
+            }
+          ]
+        },
+        {
+          "title": "Web Technologies",
+          "difficulty": "Easy",
+          "description": "HTML, CSS and HTTP basics",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "What does HTML stand for?",
+              "optionA": "Hyper Text Preprocessor",
+              "optionB": "Hyper Text Markup Language",
+              "optionC": "Hyper Text Multiple Language",
+              "optionD": "Hyper Tool Multi Language",
+              "correctAnswerIndex": 1,
+              "explanation": "HTML stands for Hyper Text Markup Language."
+            }
+          ]
+        },
+        {
+          "title": "Software Engineering",
+          "difficulty": "Easy",
+          "description": "SDLC models and Testing",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "What does HTML stand for?",
+              "optionA": "Hyper Text Preprocessor",
+              "optionB": "Hyper Text Markup Language",
+              "optionC": "Hyper Text Multiple Language",
+              "optionD": "Hyper Tool Multi Language",
+              "correctAnswerIndex": 1,
+              "explanation": "HTML stands for Hyper Text Markup Language."
+            }
+          ]
+        },
+        {
+          "title": "Cloud Computing",
+          "difficulty": "Medium",
+          "description": "AWS, Azure and Cloud services",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "What does HTML stand for?",
+              "optionA": "Hyper Text Preprocessor",
+              "optionB": "Hyper Text Markup Language",
+              "optionC": "Hyper Text Multiple Language",
+              "optionD": "Hyper Tool Multi Language",
+              "correctAnswerIndex": 1,
+              "explanation": "HTML stands for Hyper Text Markup Language."
+            }
+          ]
+        },
+        {
+          "title": "Cybersecurity Basics",
+          "difficulty": "Medium",
+          "description": "Encryption, Firewalls and Security threats",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "What does HTML stand for?",
+              "optionA": "Hyper Text Preprocessor",
+              "optionB": "Hyper Text Markup Language",
+              "optionC": "Hyper Text Multiple Language",
+              "optionD": "Hyper Tool Multi Language",
+              "correctAnswerIndex": 1,
+              "explanation": "HTML stands for Hyper Text Markup Language."
+            }
+          ]
+        },
+        {
+          "title": "Mobile App Development",
+          "difficulty": "Easy",
+          "description": "Android and iOS basics",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "What does HTML stand for?",
+              "optionA": "Hyper Text Preprocessor",
+              "optionB": "Hyper Text Markup Language",
+              "optionC": "Hyper Text Multiple Language",
+              "optionD": "Hyper Tool Multi Language",
+              "correctAnswerIndex": 1,
+              "explanation": "HTML stands for Hyper Text Markup Language."
+            }
+          ]
+        },
+        {
+          "title": "Artificial Intelligence",
+          "difficulty": "Hard",
+          "description": "Neural Networks and AI concepts",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "What does HTML stand for?",
+              "optionA": "Hyper Text Preprocessor",
+              "optionB": "Hyper Text Markup Language",
+              "optionC": "Hyper Text Multiple Language",
+              "optionD": "Hyper Tool Multi Language",
+              "correctAnswerIndex": 1,
+              "explanation": "HTML stands for Hyper Text Markup Language."
+            }
+          ]
+        },
+        {
+          "title": "Machine Learning",
+          "difficulty": "Hard",
+          "description": "Supervised and Unsupervised learning",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "What does HTML stand for?",
+              "optionA": "Hyper Text Preprocessor",
+              "optionB": "Hyper Text Markup Language",
+              "optionC": "Hyper Text Multiple Language",
+              "optionD": "Hyper Tool Multi Language",
+              "correctAnswerIndex": 1,
+              "explanation": "HTML stands for Hyper Text Markup Language."
+            }
+          ]
+        },
+        {
+          "title": "Blockchain Basics",
+          "difficulty": "Medium",
+          "description": "Decentralization and Cryptography",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "What does HTML stand for?",
+              "optionA": "Hyper Text Preprocessor",
+              "optionB": "Hyper Text Markup Language",
+              "optionC": "Hyper Text Multiple Language",
+              "optionD": "Hyper Tool Multi Language",
+              "correctAnswerIndex": 1,
+              "explanation": "HTML stands for Hyper Text Markup Language."
+            }
+          ]
+        },
+        {
+          "title": "Git and Version Control",
+          "difficulty": "Easy",
+          "description": "Branching, Merging and Commits",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "What does HTML stand for?",
+              "optionA": "Hyper Text Preprocessor",
+              "optionB": "Hyper Text Markup Language",
+              "optionC": "Hyper Text Multiple Language",
+              "optionD": "Hyper Tool Multi Language",
+              "correctAnswerIndex": 1,
+              "explanation": "HTML stands for Hyper Text Markup Language."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

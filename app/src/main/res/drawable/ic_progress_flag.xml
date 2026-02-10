@@ -1,0 +1,18 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24.0"
+    android:viewportHeight="24.0">
+    <!-- Bars -->
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M4,22h4v-8H4V22z M10,22h4v-12h-4V22z M16,22h4V6h-4V22z" />
+    <!-- Flag -->
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M19,6V2h4l-1,2l1,2h-4V6" />
+    <!-- Arrow (Derived from ic_graph_up but shifted/sized to fit) -->
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M16,5l2,2 l-4,4 l-4,-4 l-6,6 L2.6,11.6 L10,4.2 l4,4 l4,-4 L16,5z" />
+</vector>

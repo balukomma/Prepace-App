@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="4dp"
+    app:strokeWidth="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            
+            <TextView
+                android:id="@+id/tvCategoryName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Category Name"
+                android:fontFamily="sans-serif-bold"
+                android:textSize="18sp"
+                android:textColor="#1F2022"/>
+                
+            <TextView
+                android:id="@+id/tvAvgScorePercent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:text="0%"
+                android:fontFamily="sans-serif-black"
+                android:textSize="20sp"
+                android:textColor="#1F2022"/>
+
+            <TextView
+                android:id="@+id/tvQuizCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvCategoryName"
+                android:layout_marginTop="4dp"
+                android:text="0 of 0 quizzes attempted"
+                android:textColor="#858597"
+                android:textSize="12sp"/>
+                
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvAvgScorePercent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="4dp"
+                android:text="Avg. Score"
+                android:textColor="#858597"
+                android:textSize="10sp"/>
+        </RelativeLayout>
+
+        <!-- Score Progress -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+            
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Score Progress"
+                android:textColor="#666666"
+                android:textSize="12sp"/>
+                
+            <TextView
+                android:id="@+id/tvScoreProgressVal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0%"
+                android:fontFamily="sans-serif-bold"
+                android:textSize="12sp"
+                android:textColor="#1A1A1A"/>
+        </LinearLayout>
+        
+        <ProgressBar
+            android:id="@+id/progressScore"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:layout_marginTop="4dp"
+            android:progressDrawable="@drawable/progress_bar_rounded"
+            android:progress="0"
+            />
+
+        <!-- Completion -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal">
+            
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Completion"
+                android:textColor="#666666"
+                android:textSize="12sp"/>
+                
+            <TextView
+                android:id="@+id/tvCompletionVal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0%"
+                android:fontFamily="sans-serif-bold"
+                android:textSize="12sp"
+                android:textColor="#1A1A1A"/>
+        </LinearLayout>
+        
+        <ProgressBar
+            android:id="@+id/progressCompletion"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:layout_marginTop="4dp"
+            android:progressDrawable="@drawable/progress_bar_rounded"
+            android:progressTint="#7B61FF"
+            android:progress="0"
+            />
+            
+        <Button
+            android:id="@+id/btnPractice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Practice More"
+            android:textAllCaps="false"
+            android:backgroundTint="#F2F2F7"
+            android:textColor="#1F2022"
+            android:elevation="0dp"
+            app:cornerRadius="12dp"/>
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

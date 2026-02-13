@@ -23,7 +23,8 @@ public class QuizHistoryActivity extends AppCompatActivity {
         RecyclerView rvHistory = findViewById(R.id.rvHistory);
         rvHistory.setLayoutManager(new LinearLayoutManager(this));
         
-        List<QuizResult> history = QuizHistoryManager.getQuizResults(this);
+        String userId = com.simats.prepace.UserProfileManager.getInstance(this).getUserId();
+        List<QuizResult> history = QuizHistoryManager.getQuizResults(this, userId);
         
         // --- DUMMY DATA FOR DEMO (If empty) ---
         if (history.isEmpty()) {

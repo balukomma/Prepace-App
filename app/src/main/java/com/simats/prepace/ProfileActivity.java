@@ -131,14 +131,15 @@ public class ProfileActivity extends AppCompatActivity {
         }
         
         // Calculate Stats
-        java.util.List<com.simats.prepace.model.QuizResult> history = com.simats.prepace.utils.QuizHistoryManager.getQuizResults(this);
+        String userId = userManager.getUserId();
+        java.util.List<com.simats.prepace.model.QuizResult> history = com.simats.prepace.utils.QuizHistoryManager.getQuizResults(this, userId);
         int totalQuizzes = history.size();
         int totalScore = 0;
         for (com.simats.prepace.model.QuizResult res : history) {
             totalScore += res.getScore();
         }
         int avgScore = totalQuizzes > 0 ? totalScore / totalQuizzes : 0;
-        int unlockedBadges = AchievementManager.getUnlockedCount(this);
+        int unlockedBadges = AchievementManager.getUnlockedCount(this, userId);
         
         if (tvStatQuizzes != null) tvStatQuizzes.setText(String.valueOf(totalQuizzes));
         if (tvStatAvgScore != null) tvStatAvgScore.setText(avgScore + "%");

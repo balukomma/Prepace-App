@@ -73,18 +73,22 @@ public class QuizHistoryAdapter extends RecyclerView.Adapter<QuizHistoryAdapter.
             Intent intent = new Intent(context, com.simats.prepace.ReviewAnswersActivity.class);
             
             int totalQ = res.getTotalQuestions() > 0 ? res.getTotalQuestions() : 5;
-            int correctCount = res.getScore();
             
-            // Use the comprehensive generator
-            List<com.simats.prepace.model.Question> dummyQuestions = 
-                com.simats.prepace.utils.MockQuizReviewGenerator.generateMockQuestions(
-                    res.getCategory(), 
-                    res.getQuizTitle(), 
-                    totalQ, 
-                    correctCount
+            List<com.simats.prepace.model.Question> questionsToReview;
+            
+            if (res.getQuestions() != null && !res.getQuestions().isEmpty()) {
+                questionsToReview = res.getQuestions();
+            } else {
+                // Fallback to mock data for old records
+                questionsToReview = com.simats.prepace.utils.MockQuizReviewGenerator.generateMockQuestions(
+                        res.getCategory(), 
+                        res.getQuizTitle(), 
+                        totalQ, 
+                        res.getScore()
                 );
+            }
             
-            intent.putExtra("question_list", (java.io.Serializable) dummyQuestions);
+            intent.putExtra("question_list", (java.io.Serializable) questionsToReview);
             intent.putExtra("score", score); // Optional if Activity needs it
             intent.putExtra("total_questions", totalQ); 
             context.startActivity(intent);

@@ -32,6 +32,7 @@ public class HomeActivity extends AppCompatActivity {
             }
         }
 
+
         bottomNav = findViewById(R.id.bottom_navigation);
         bottomNav.setSelectedItemId(R.id.nav_home);
 
@@ -168,7 +169,8 @@ public class HomeActivity extends AppCompatActivity {
         }
         
         // Update Stats
-        java.util.List<com.simats.prepace.model.QuizResult> history = com.simats.prepace.utils.QuizHistoryManager.getQuizResults(this);
+        String userId = userManager.getUserId();
+        java.util.List<com.simats.prepace.model.QuizResult> history = com.simats.prepace.utils.QuizHistoryManager.getQuizResults(this, userId);
         int totalQuizzes = history.size();
         int totalScore = 0;
         int totalQuestions = 0;
@@ -201,7 +203,8 @@ public class HomeActivity extends AppCompatActivity {
     private void updateTimeSpent() {
         android.widget.TextView tvStatTime = findViewById(R.id.tvHomeStatTime);
         if (tvStatTime != null) {
-            String timeSpent = com.simats.prepace.utils.AppTimeTracker.getFormattedTotalTime(this);
+            String userId = UserProfileManager.getInstance(this).getUserId();
+            String timeSpent = com.simats.prepace.utils.AppTimeTracker.getFormattedTotalTime(this, userId);
             tvStatTime.setText(timeSpent);
         }
     }

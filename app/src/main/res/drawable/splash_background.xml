@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background Gradient -->
+    <item android:drawable="@drawable/gradient_background" />
+
+    <!-- Centered Logo -->
+    <item>
+        <bitmap
+            android:src="@drawable/ic_graduation_cap"
+            android:gravity="center" />
+    </item>
+</layer-list>

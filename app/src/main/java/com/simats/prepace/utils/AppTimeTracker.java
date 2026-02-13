@@ -14,7 +14,7 @@ public class AppTimeTracker {
         startTime = System.currentTimeMillis();
     }
 
-    public static void stopTracking(Context context) {
+    public static void stopTracking(Context context, String userId) {
         if (startTime == 0) return;
 
         long endTime = System.currentTimeMillis();
@@ -22,15 +22,17 @@ public class AppTimeTracker {
 
         if (sessionTime > 0) {
             SharedPreferences prefs = context.getSharedPreferences(PREF_NAME, Context.MODE_PRIVATE);
-            long totalTime = prefs.getLong(KEY_TOTAL_TIME, 0);
-            prefs.edit().putLong(KEY_TOTAL_TIME, totalTime + sessionTime).apply();
+            String key = userId != null ? KEY_TOTAL_TIME + "_" + userId : KEY_TOTAL_TIME;
+            long totalTime = prefs.getLong(key, 0);
+            prefs.edit().putLong(key, totalTime + sessionTime).apply();
         }
         startTime = 0;
     }
 
-    public static long getTotalTimeMs(Context context) {
+    public static long getTotalTimeMs(Context context, String userId) {
         SharedPreferences prefs = context.getSharedPreferences(PREF_NAME, Context.MODE_PRIVATE);
-        long storedTime = prefs.getLong(KEY_TOTAL_TIME, 0);
+        String key = userId != null ? KEY_TOTAL_TIME + "_" + userId : KEY_TOTAL_TIME;
+        long storedTime = prefs.getLong(key, 0);
         
         // Add current session time if tracking is active
         if (startTime > 0) {
@@ -40,8 +42,8 @@ public class AppTimeTracker {
         return storedTime;
     }
 
-    public static String getFormattedTotalTime(Context context) {
-        long totalTimeMs = getTotalTimeMs(context);
+    public static String getFormattedTotalTime(Context context, String userId) {
+        long totalTimeMs = getTotalTimeMs(context, userId);
         long totalMinutes = totalTimeMs / (1000 * 60);
         long hours = totalMinutes / 60;
         long minutes = totalMinutes % 60;

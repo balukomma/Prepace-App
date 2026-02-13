@@ -62,7 +62,8 @@ public class AptitudeCategoryActivity extends AppCompatActivity {
         // 2. Completion Rate
         // Logic: (Unique Quizzes Completed / Total Quizzes Available) * 100
         int totalAvailableQuizzes = com.simats.prepace.utils.QuizDataManager.getQuizzesForCategory(this, categoryTitle).size();
-        int uniqueCompleted = com.simats.prepace.utils.QuizHistoryManager.getUniqueCompletedQuizCount(this, categoryTitle);
+        String userId = com.simats.prepace.UserProfileManager.getInstance(this).getUserId();
+        int uniqueCompleted = com.simats.prepace.utils.QuizHistoryManager.getUniqueCompletedQuizCount(this, userId, categoryTitle);
         
         int completionRate = 0;
         if (totalAvailableQuizzes > 0) {

@@ -103,7 +103,8 @@ public class ProgressActivity extends AppCompatActivity {
     }
 
     private void loadData() {
-        history = QuizHistoryManager.getQuizResults(this);
+        String userId = com.simats.prepace.UserProfileManager.getInstance(this).getUserId();
+        history = QuizHistoryManager.getQuizResults(this, userId);
         
         // --- Top Stats ---
         int totalQuizzes = history.size();

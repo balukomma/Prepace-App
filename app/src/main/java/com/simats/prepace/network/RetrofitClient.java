@@ -9,10 +9,10 @@ import retrofit2.converter.gson.GsonConverterFactory;
 import java.util.concurrent.TimeUnit;
 
 public class RetrofitClient {
-    
+
     private static Retrofit retrofit;
     private static final String BASE_URL = "http://14.139.187.229:8081/april_2025_batch/spic_723/prepace/";
-    
+
     /**
      * Get the Retrofit instance
      * If instance doesn't exist, create a new one
@@ -27,21 +27,21 @@ public class RetrofitClient {
         }
         return retrofit;
     }
-    
+
     /**
      * Get the API Service instance
      */
     public static ApiService getApiService() {
         return getRetrofitInstance().create(ApiService.class);
     }
-    
+
     /**
      * Create OkHttpClient with logging and timeouts
      */
     private static OkHttpClient createOkHttpClient() {
         HttpLoggingInterceptor loggingInterceptor = new HttpLoggingInterceptor();
         loggingInterceptor.setLevel(HttpLoggingInterceptor.Level.BODY);
-        
+
         return new OkHttpClient.Builder()
                 .addInterceptor(loggingInterceptor)
                 .connectTimeout(30, TimeUnit.SECONDS)
@@ -49,7 +49,7 @@ public class RetrofitClient {
                 .writeTimeout(30, TimeUnit.SECONDS)
                 .build();
     }
-    
+
     /**
      * Create Gson instance for serialization/deserialization
      */
@@ -59,7 +59,7 @@ public class RetrofitClient {
                 .setPrettyPrinting()
                 .create();
     }
-    
+
     /**
      * Reset the Retrofit instance (useful for testing or changing base URL)
      */

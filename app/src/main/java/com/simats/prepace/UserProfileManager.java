@@ -8,6 +8,7 @@ public class UserProfileManager {
     private static final String KEY_NAME = "full_name";
     private static final String KEY_EMAIL = "email";
     private static final String KEY_PHONE = "phone";
+    private static final String KEY_USER_ID = "user_id";
     private static final String KEY_AVATAR_ID = "avatar_id";
     private static final String KEY_AVATAR_URI = "avatar_uri";
     
@@ -36,8 +37,8 @@ public class UserProfileManager {
     public String getName() { return prefs.getString(KEY_NAME, "John Doe"); }
     public String getEmail() { return prefs.getString(KEY_EMAIL, "hbh@gmail.com"); }
     public String getPhone() { return prefs.getString(KEY_PHONE, ""); }
-    public int getAvatarId() { return prefs.getInt(KEY_AVATAR_ID, R.drawable.user_avatar); }
     public String getAvatarUri() { return prefs.getString(KEY_AVATAR_URI, null); }
+    public String getUserId() { return prefs.getString(KEY_USER_ID, null); }
     
     // Profile Setters
     public void saveProfile(String name, String email, String phone) {
@@ -50,6 +51,10 @@ public class UserProfileManager {
     
     public void saveAvatarUri(String uriString) {
         prefs.edit().putString(KEY_AVATAR_URI, uriString).apply();
+    }
+
+    public void saveUserId(String userId) {
+        prefs.edit().putString(KEY_USER_ID, userId).apply();
     }
 
     // Settings Getters

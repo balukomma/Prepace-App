@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <!-- ✅ Internet Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:name=".PrepaceApplication"
         android:allowBackup="true"
@@ -12,105 +16,135 @@
         android:roundIcon="@drawable/ic_graduation_cap"
         android:supportsRtl="true"
         android:usesCleartextTraffic="true"
+        android:networkSecurityConfig="@xml/network_security_config"
         android:theme="@style/Theme.Prepace">
+
+        <!-- Main Activities -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".OnboardingActivity"
-            android:exported="false" />
-        <activity
-            android:name=".CreateAccountActivity"
-            android:exported="false" />
+
         <activity
             android:name=".LoginActivity"
             android:exported="false" />
+
+        <activity
+            android:name=".CreateAccountActivity"
+            android:exported="false" />
+
         <activity
             android:name=".HomeActivity"
             android:exported="false" />
+
         <activity
             android:name=".CategoriesActivity"
             android:exported="false" />
+
         <activity
             android:name=".CategoryDetailActivity"
             android:exported="false" />
+
         <activity
-            android:name=".ReasoningCategoryActivity"
+            android:name=".AptitudeCategoryActivity"
             android:exported="false" />
+
         <activity
             android:name=".TechnicalCategoryActivity"
             android:exported="false" />
 
         <activity
-            android:name=".QuizListActivity"
+            android:name=".ReasoningCategoryActivity"
             android:exported="false" />
-        <activity
-            android:name=".AptitudeCategoryActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ReasoningQuizListActivity"
-            android:exported="false" />
+
         <activity
             android:name=".TechnicalQuizListActivity"
             android:exported="false" />
+
         <activity
-            android:name=".QuizInstructionsActivity"
+            android:name=".ReasoningQuizListActivity"
             android:exported="false" />
-        <activity
-            android:name=".QuizActivity"
-            android:exported="false" />
-        <activity
-            android:name=".QuestionActivity"
-            android:exported="false" />
-            
-        <activity android:name=".QuizResultActivity"
-            android:exported="false" />
+
         <activity
             android:name=".ReviewAnswersActivity"
             android:exported="false" />
-        <activity
-            android:name=".ProgressActivity"
-            android:exported="false" />
-        <activity
-            android:name=".PerformanceActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ProfileActivity"
-            android:exported="false" />
-        <activity
-            android:name=".EditProfileActivity"
-            android:exported="false" />
+
         <activity
             android:name=".AchievementsActivity"
             android:exported="false" />
-        <activity
-            android:name=".SettingsActivity"
-            android:exported="false" />
-        <activity
-            android:name=".HelpSupportActivity"
-            android:exported="false" />
-        <activity
-            android:name=".LegalActivity"
-            android:exported="false" />
-        <activity
-            android:name=".QuizHistoryActivity"
-            android:exported="false" />
-        <activity
-            android:name=".NotificationActivity"
-            android:exported="false" />
+
         <activity
             android:name=".ChatActivity"
             android:exported="false" />
-    </application>
 
-    <!-- Internet Permission for API calls -->
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+        <activity
+            android:name=".EditProfileActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".HelpSupportActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".LegalActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ResetPasswordActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".QuizResultActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".QuizListActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".QuizInstructionsActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".QuizHistoryActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".QuizActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".QuestionActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ProgressActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".PerformanceActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".NotificationActivity"
+            android:exported="false" />
+
+    </application>
 
 </manifest>

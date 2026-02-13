@@ -58,14 +58,15 @@ public class ApiUsageExample {
      */
     public static void registerUser(AppCompatActivity activity, String name, String email, String password) {
         ApiService apiService = RetrofitClient.getApiService();
-        
+
+        // Create register request body
         JsonObject registerRequest = new JsonObject();
-        registerRequest.addProperty("name", name);
+        registerRequest.addProperty("username", name);
         registerRequest.addProperty("email", email);
         registerRequest.addProperty("password", password);
-        
+
         Call<JsonObject> call = apiService.register(registerRequest);
-        
+
         call.enqueue(new Callback<JsonObject>() {
             @Override
             public void onResponse(Call<JsonObject> call, Response<JsonObject> response) {
@@ -75,7 +76,7 @@ public class ApiUsageExample {
                     Toast.makeText(activity, "Registration Failed", Toast.LENGTH_SHORT).show();
                 }
             }
-            
+
             @Override
             public void onFailure(Call<JsonObject> call, Throwable t) {
                 Toast.makeText(activity, "Network Error: " + t.getMessage(), Toast.LENGTH_SHORT).show();
@@ -113,11 +114,11 @@ public class ApiUsageExample {
     /**
      * Example: Get User Profile API Call
      */
-    public static void fetchUserProfile(AppCompatActivity activity) {
+    public static void fetchUserProfile(AppCompatActivity activity, String userId) {
         ApiService apiService = RetrofitClient.getApiService();
         
-        Call<JsonObject> call = apiService.getUserProfile();
-        
+        Call<JsonObject> call = apiService.getUserProfile(userId);
+
         call.enqueue(new Callback<JsonObject>() {
             @Override
             public void onResponse(Call<JsonObject> call, Response<JsonObject> response) {

@@ -15,13 +15,11 @@ public class EditProfileActivity extends AppCompatActivity {
 
         android.widget.EditText etName = findViewById(R.id.etName);
         android.widget.EditText etEmail = findViewById(R.id.etEmail);
-        android.widget.EditText etPhone = findViewById(R.id.etPhone);
         android.widget.ImageView ivProfileImage = findViewById(R.id.ivProfileImage);
         
         // Load Data
         etName.setText(userManager.getName());
         etEmail.setText(userManager.getEmail());
-        etPhone.setText(userManager.getPhone());
         
         String savedUri = userManager.getAvatarUri();
         if (savedUri != null) {
@@ -67,13 +65,19 @@ public class EditProfileActivity extends AppCompatActivity {
         findViewById(R.id.btnCancel).setOnClickListener(v -> finish());
 
         findViewById(R.id.btnSave).setOnClickListener(v -> {
-            String name = etName.getText().toString();
-            String email = etEmail.getText().toString();
-            String phone = etPhone.getText().toString();
+            String name = etName.getText().toString().trim();
+            String email = etEmail.getText().toString().trim();
+            String avatarUri = userManager.getAvatarUri();
+
+            if (name.isEmpty() || email.isEmpty()) {
+                Toast.makeText(this, "Name and Email are required", Toast.LENGTH_SHORT).show();
+                return;
+            }
+
+            // Save Local Data Only (No Server Sync)
+            userManager.saveProfile(name, email, ""); // Phone is explicitly empty
             
-            userManager.saveProfile(name, email, phone);
-            
-            Toast.makeText(this, "Profile Updated Successfully", Toast.LENGTH_SHORT).show();
+            Toast.makeText(EditProfileActivity.this, "Profile Updated Successfully", Toast.LENGTH_SHORT).show();
             finish();
         });
     }

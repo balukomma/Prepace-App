@@ -134,27 +134,7 @@
                 android:textColor="#212121"
                 android:textSize="16sp" />
             
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:text="Mobile Number"
-                android:textColor="#424242"
-                android:textSize="14sp" />
 
-            <EditText
-                android:id="@+id/etPhone"
-                android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:layout_marginTop="8dp"
-                android:background="@drawable/bg_edit_text"
-                android:drawableStart="@drawable/ic_edit" 
-                android:drawablePadding="12dp"
-                android:paddingHorizontal="12dp"
-                android:hint="Enter your mobile number"
-                android:textColor="#212121"
-                android:textSize="16sp" />
-                 <!-- Using ic_edit temporarily for phone if ic_phone doesn't exist. Will fix later if needed -->
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>

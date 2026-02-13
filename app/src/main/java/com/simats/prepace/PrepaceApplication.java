@@ -38,7 +38,8 @@ public class PrepaceApplication extends Application implements Application.Activ
         isActivityChangingConfigurations = activity.isChangingConfigurations();
         if (--activityReferences == 0 && !isActivityChangingConfigurations) {
             // App enters background
-            AppTimeTracker.stopTracking(this);
+            String userId = com.simats.prepace.UserProfileManager.getInstance(this).getUserId();
+            AppTimeTracker.stopTracking(this, userId);
         }
     }
 

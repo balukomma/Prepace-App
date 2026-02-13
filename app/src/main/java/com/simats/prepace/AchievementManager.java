@@ -24,8 +24,8 @@ public class AchievementManager {
         }
     }
 
-    public static List<Achievement> checkAchievements(Context context) {
-        List<QuizResult> history = QuizHistoryManager.getQuizResults(context);
+    public static List<Achievement> checkAchievements(Context context, String userId) {
+        List<QuizResult> history = QuizHistoryManager.getQuizResults(context, userId);
         List<Achievement> achievements = new ArrayList<>();
         int totalQuizzes = history.size();
         boolean perfectScore = false;
@@ -84,19 +84,20 @@ public class AchievementManager {
         return achievements;
     }
     
-    public static int getUnlockedCount(Context context) {
+    public static int getUnlockedCount(Context context, String userId) {
         int count = 0;
-        for (Achievement a : checkAchievements(context)) {
+        for (Achievement a : checkAchievements(context, userId)) {
             if (a.isUnlocked) count++;
         }
         return count;
     }
 
     public static void checkAndNotifyNewAchievements(Context context) {
+        String userId = com.simats.prepace.UserProfileManager.getInstance(context).getUserId();
         android.content.SharedPreferences prefs = context.getSharedPreferences("AchievementPrefs", Context.MODE_PRIVATE);
         java.util.Set<String> unlockedIds = prefs.getStringSet("unlocked_ids", new java.util.HashSet<>());
         
-        List<Achievement> currentStatus = checkAchievements(context);
+        List<Achievement> currentStatus = checkAchievements(context, userId);
         boolean saveNeeded = false;
         
         for (Achievement a : currentStatus) {

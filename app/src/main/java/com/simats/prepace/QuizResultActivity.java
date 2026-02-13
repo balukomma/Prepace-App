@@ -25,15 +25,18 @@ public class QuizResultActivity extends AppCompatActivity {
         // Save Result
         String category = getIntent().getStringExtra("category_title");
         String quizTitle = getIntent().getStringExtra("quiz_title");
+        java.util.List<com.simats.prepace.model.Question> qList = (java.util.List<com.simats.prepace.model.Question>) getIntent().getSerializableExtra("question_list");
         
         // Simple null check fallback
         if (category == null) category = "General";
         if (quizTitle == null) quizTitle = "Quiz";
+        if (qList == null) qList = new java.util.ArrayList<>();
         
         com.simats.prepace.model.QuizResult result = new com.simats.prepace.model.QuizResult(
-            category, quizTitle, score, totalQuestions, System.currentTimeMillis()
+            category, quizTitle, score, totalQuestions, System.currentTimeMillis(), qList
         );
-        com.simats.prepace.utils.QuizHistoryManager.saveQuizResult(this, result);
+        String userId = com.simats.prepace.UserProfileManager.getInstance(this).getUserId();
+        com.simats.prepace.utils.QuizHistoryManager.saveQuizResult(this, userId, result);
 
         // UI References
         TextView tvScorePercentage = findViewById(R.id.tvScorePercentage);
@@ -76,7 +79,7 @@ public class QuizResultActivity extends AppCompatActivity {
         
         // 2. High Score / Personal Best
         // Check previous best
-        java.util.List<com.simats.prepace.model.QuizResult> history = com.simats.prepace.utils.QuizHistoryManager.getQuizResults(this);
+        java.util.List<com.simats.prepace.model.QuizResult> history = com.simats.prepace.utils.QuizHistoryManager.getQuizResults(this, userId);
         int currentBest = 0;
         // The current result is already saved at index 0, so we check from index 1 downwards or filter
         // Actually we just saved the result in onCreate before this block.
@@ -149,10 +152,10 @@ public class QuizResultActivity extends AppCompatActivity {
         });
 
         findViewById(R.id.btnReview).setOnClickListener(v -> {
-            java.util.List<com.simats.prepace.model.Question> qList = (java.util.List<com.simats.prepace.model.Question>) getIntent().getSerializableExtra("question_list");
-            if (qList != null) {
+            java.util.List<com.simats.prepace.model.Question> reviewList = (java.util.List<com.simats.prepace.model.Question>) getIntent().getSerializableExtra("question_list");
+            if (reviewList != null) {
                 Intent intent = new Intent(this, ReviewAnswersActivity.class);
-                intent.putExtra("question_list", (java.io.Serializable) qList);
+                intent.putExtra("question_list", (java.io.Serializable) reviewList);
                 startActivity(intent);
             } else {
                  android.widget.Toast.makeText(this, "Error loading review data", android.widget.Toast.LENGTH_SHORT).show();

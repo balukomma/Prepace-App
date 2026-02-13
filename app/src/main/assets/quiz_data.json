@@ -4,368 +4,1178 @@
       "name": "Aptitude",
       "quizzes": [
         {
-          "title": "Basic Arithmetic",
+          "title": "Quantitative Aptitude",
           "difficulty": "Easy",
-          "description": "Test your fundamental math skills",
+          "description": "Practice questions for Quantitative Aptitude",
           "time_limit": 15,
           "questions": [
             {
-              "questionText": "What is 25% of 400?",
-              "optionA": "75",
-              "optionB": "100",
-              "optionC": "125",
-              "optionD": "150",
+              "questionText": "If a train travels 120 km in 2 hours, what is its speed?",
+              "optionA": "50 km/h",
+              "optionB": "60 km/h",
+              "optionC": "70 km/h",
+              "optionD": "80 km/h",
               "correctAnswerIndex": 1,
-              "explanation": "25% is 1/4. 400 / 4 = 100."
+              "explanation": ""
             },
             {
-              "questionText": "If a car travels 60 km in 1.5 hours, what is its speed?",
-              "optionA": "30 km/h",
-              "optionB": "40 km/h",
-              "optionC": "45 km/h",
-              "optionD": "50 km/h",
+              "questionText": "What is 15% of 200?",
+              "optionA": "25",
+              "optionB": "30",
+              "optionC": "35",
+              "optionD": "40",
               "correctAnswerIndex": 1,
-              "explanation": "Speed = Distance/Time = 60 / 1.5 = 40 km/h."
+              "explanation": ""
             },
             {
-              "questionText": "Solve: 12 x 12 - 44?",
-              "optionA": "90",
-              "optionB": "100",
-              "optionC": "110",
-              "optionD": "144",
-              "correctAnswerIndex": 1,
-              "explanation": "12 x 12 = 144. Then 144 - 44 = 100."
-            },
-            {
-              "questionText": "What is the square root of 225?",
-              "optionA": "12",
-              "optionB": "13",
-              "optionC": "14",
-              "optionD": "15",
-              "correctAnswerIndex": 3,
-              "explanation": "15 x 15 = 225."
-            },
-            {
-              "questionText": "The average of 5 numbers is 20. The sum is:",
-              "optionA": "80",
-              "optionB": "90",
-              "optionC": "100",
-              "optionD": "120",
-              "correctAnswerIndex": 2,
-              "explanation": "Sum = Average x Count = 20 x 5 = 100."
-            },
-            {
-              "questionText": "If A is 20% more than B, and B is 100, what is A?",
-              "optionA": "110",
-              "optionB": "120",
-              "optionC": "130",
-              "optionD": "140",
-              "correctAnswerIndex": 1,
-              "explanation": "20% of 100 is 20. So A = 100 + 20 = 120."
-            },
-            {
-              "questionText": "A train 100m long crosses a pole in 10s. Speed?",
-              "optionA": "10 m/s",
-              "optionB": "20 m/s",
-              "optionC": "30 m/s",
-              "optionD": "40 m/s",
+              "questionText": "The ratio of 3:5 is equal to?",
+              "optionA": "6:10",
+              "optionB": "9:12",
+              "optionC": "12:15",
+              "optionD": "15:20",
               "correctAnswerIndex": 0,
-              "explanation": "Speed = Distance/Time = 100m / 10s = 10 m/s."
+              "explanation": ""
             },
             {
-              "questionText": "Ratio of 1 hour to 300 seconds is:",
-              "optionA": "10:1",
-              "optionB": "12:1",
-              "optionC": "15:1",
-              "optionD": "20:1",
+              "questionText": "If 5 workers can complete a job in 12 days, how many days will 10 workers take?",
+              "optionA": "4 days",
+              "optionB": "6 days",
+              "optionC": "8 days",
+              "optionD": "10 days",
               "correctAnswerIndex": 1,
-              "explanation": "1 hour = 3600 seconds. Ratio = 3600 : 300 = 36 : 3 = 12 : 1."
+              "explanation": ""
             },
             {
-              "questionText": "Cost price is 100, Selling price is 120. Profit %?",
-              "optionA": "15%",
-              "optionB": "20%",
-              "optionC": "25%",
-              "optionD": "30%",
+              "questionText": "The average of 5 numbers is 20. If one number is excluded, average becomes 15. The excluded number is?",
+              "optionA": "35",
+              "optionB": "40",
+              "optionC": "45",
+              "optionD": "50",
               "correctAnswerIndex": 1,
-              "explanation": "Profit = 120 - 100 = 20. Profit % = (20/100) * 100 = 20%."
+              "explanation": ""
             },
             {
-              "questionText": "Simple interest on 1000 for 2 years at 5% is:",
+              "questionText": "A number increased by 20% becomes 600. The original number is?",
+              "optionA": "480",
+              "optionB": "500",
+              "optionC": "520",
+              "optionD": "550",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Simple interest on Rs.1000 at 5% per annum for 2 years is?",
               "optionA": "50",
               "optionB": "100",
               "optionC": "150",
               "optionD": "200",
               "correctAnswerIndex": 1,
-              "explanation": "SI = (P*R*T)/100 = (1000*5*2)/100 = 100."
+              "explanation": ""
+            },
+            {
+              "questionText": "If 20% of A = 30% of B, then A:B is?",
+              "optionA": "2:3",
+              "optionB": "3:2",
+              "optionC": "1:1",
+              "optionD": "4:5",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "The sum of three consecutive odd numbers is 63. What is the largest number?",
+              "optionA": "19",
+              "optionB": "21",
+              "optionC": "23",
+              "optionD": "25",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "If x + y = 10 and x - y = 4, then x × y = ?",
+              "optionA": "20",
+              "optionB": "21",
+              "optionC": "24",
+              "optionD": "25",
+              "correctAnswerIndex": 1,
+              "explanation": ""
             }
           ]
         },
         {
-          "title": "Advanced Calculations",
-          "difficulty": "Hard",
-          "description": "Challenge yourself with complex problems",
+          "title": "Profit & Loss",
+          "difficulty": "Medium",
+          "description": "Practice questions for Profit & Loss",
           "time_limit": 15,
           "questions": [
             {
-              "questionText": "Derivative of x^2 is:",
-              "optionA": "x",
-              "optionB": "2x",
-              "optionC": "x^2",
-              "optionD": "2",
+              "questionText": "Cost price is Rs.100, Selling price is Rs.120. What is the profit percentage?",
+              "optionA": "10%",
+              "optionB": "15%",
+              "optionC": "20%",
+              "optionD": "25%",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "An article is sold at Rs.450 with 10% profit. What was the cost price?",
+              "optionA": "400",
+              "optionB": "409",
+              "optionC": "425",
+              "optionD": "440",
               "correctAnswerIndex": 1,
-              "explanation": "The power rule states d/dx(x^n) = nx^(n-1). So, d/dx(x^2) = 2x."
+              "explanation": ""
             },
             {
-              "questionText": "Integral of 2x dx is:",
-              "optionA": "x^2",
-              "optionB": "2x^2",
-              "optionC": "x",
-              "optionD": "2x",
+              "questionText": "If loss is 20% and CP is Rs.500, what is the selling price?",
+              "optionA": "350",
+              "optionB": "400",
+              "optionC": "450",
+              "optionD": "480",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "A shopkeeper marks his goods 40% above cost price and gives 20% discount. His profit is?",
+              "optionA": "8%",
+              "optionB": "10%",
+              "optionC": "12%",
+              "optionD": "15%",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "By selling an article for Rs.240, a man loses 4%. At what price should he sell to gain 10%?",
+              "optionA": "250",
+              "optionB": "275",
+              "optionC": "280",
+              "optionD": "300",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "If selling price is doubled, profit triples. Find profit percentage?",
+              "optionA": "50%",
+              "optionB": "66.67%",
+              "optionC": "100%",
+              "optionD": "150%",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "An article is sold at Rs.600 giving 20% profit. To gain 30%, selling price should be?",
+              "optionA": "650",
+              "optionB": "700",
+              "optionC": "720",
+              "optionD": "750",
               "correctAnswerIndex": 0,
-              "explanation": "The integral of 2x is x^2 + C. Using power rule integration: 2 * (x^2)/2 = x^2."
+              "explanation": ""
             },
             {
-              "questionText": "Log(1) is equal to:",
-              "optionA": "0",
-              "optionB": "1",
+              "questionText": "Loss of 12% on selling price equals what % loss on cost price?",
+              "optionA": "10.71%",
+              "optionB": "11.11%",
+              "optionC": "12%",
+              "optionD": "13.33%",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "If CP of 12 articles equals SP of 10 articles, profit percentage is?",
+              "optionA": "15%",
+              "optionB": "20%",
+              "optionC": "25%",
+              "optionD": "30%",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "A merchant marks goods 25% above CP and allows 10% discount. His gain % is?",
+              "optionA": "10%",
+              "optionB": "12.5%",
+              "optionC": "15%",
+              "optionD": "17.5%",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "title": "Time & Work",
+          "difficulty": "Hard",
+          "description": "Practice questions for Time & Work",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "A can do work in 10 days, B can do it in 15 days. Together they can finish in?",
+              "optionA": "5 days",
+              "optionB": "6 days",
+              "optionC": "7 days",
+              "optionD": "8 days",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "If 8 men can complete work in 12 days, how many men are needed to complete it in 6 days?",
+              "optionA": "12",
+              "optionB": "14",
+              "optionC": "16",
+              "optionD": "18",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "A can do a work in 20 days. B is 25% more efficient than A. B alone can complete the work in?",
+              "optionA": "15 days",
+              "optionB": "16 days",
+              "optionC": "18 days",
+              "optionD": "20 days",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "A and B can do work in 12 days, B and C in 15 days, C and A in 20 days. How long will A take alone?",
+              "optionA": "24 days",
+              "optionB": "30 days",
+              "optionC": "36 days",
+              "optionD": "40 days",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "10 men can complete work in 15 days. After 5 days, 5 more men join. Work will be completed in total?",
+              "optionA": "10 days",
+              "optionB": "11 days",
+              "optionC": "12 days",
+              "optionD": "13 days",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "A works twice as fast as B. If B can complete work in 12 days, working together they finish in?",
+              "optionA": "4 days",
+              "optionB": "6 days",
+              "optionC": "8 days",
+              "optionD": "10 days",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "A can do work in 8 days, B can do it in 12 days. After working together for 3 days, A leaves. B completes remaining work in?",
+              "optionA": "2 days",
+              "optionB": "3 days",
+              "optionC": "4 days",
+              "optionD": "5 days",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "If 6 men and 8 boys can do work in 10 days while 26 men and 48 boys can do same work in 2 days, time taken by 15 men and 20 boys?",
+              "optionA": "4 days",
+              "optionB": "5 days",
+              "optionC": "6 days",
+              "optionD": "7 days",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "A is 50% as efficient as B. C does half the work done by A and B together. If C alone does work in 40 days, A and B together finish in?",
+              "optionA": "13 days",
+              "optionB": "15 days",
+              "optionC": "20 days",
+              "optionD": "30 days",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "A and B together complete 5/8 of work, B and C together complete 7/12 of work. Who is most efficient?",
+              "optionA": "A",
+              "optionB": "B",
+              "optionC": "C",
+              "optionD": "All equal",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "title": "Time & Distance",
+          "difficulty": "Hard",
+          "description": "Practice questions for Time & Distance",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "A car travels at 60 km/h for 3 hours. What distance does it cover?",
+              "optionA": "150 km",
+              "optionB": "160 km",
+              "optionC": "180 km",
+              "optionD": "200 km",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "A man walks at 5 km/h and reaches 10 minutes late. If he walks at 6 km/h, he reaches 5 minutes early. Find distance?",
+              "optionA": "10 km",
+              "optionB": "12 km",
+              "optionC": "15 km",
+              "optionD": "18 km",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "Two trains running in opposite directions cross each other in 8 seconds. If speed of one train is 40 km/h and other is 50 km/h, what is total length?",
+              "optionA": "100 m",
+              "optionB": "150 m",
+              "optionC": "200 m",
+              "optionD": "250 m",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "A person covers a distance of 200 km in 5 hours. What is his average speed?",
+              "optionA": "35 km/h",
+              "optionB": "40 km/h",
+              "optionC": "45 km/h",
+              "optionD": "50 km/h",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "If a car increases its speed from 40 km/h to 50 km/h, what is the percentage increase?",
+              "optionA": "20%",
+              "optionB": "25%",
+              "optionC": "30%",
+              "optionD": "35%",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "A train 100 m long passes a pole in 10 seconds. What is its speed in km/h?",
+              "optionA": "30 km/h",
+              "optionB": "36 km/h",
+              "optionC": "40 km/h",
+              "optionD": "45 km/h",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Two places are 120 km apart. A person covers half distance at 40 km/h and remaining at 60 km/h. Find average speed?",
+              "optionA": "45 km/h",
+              "optionB": "48 km/h",
+              "optionC": "50 km/h",
+              "optionD": "52 km/h",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "A man can row 15 km/h in still water. If stream flows at 3 km/h, what is his speed upstream?",
+              "optionA": "10 km/h",
+              "optionB": "12 km/h",
+              "optionC": "15 km/h",
+              "optionD": "18 km/h",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "A train travels 360 km at uniform speed. If speed had been 5 km/h more, it would have taken 1 hour less. Find original speed?",
+              "optionA": "30 km/h",
+              "optionB": "35 km/h",
+              "optionC": "40 km/h",
+              "optionD": "45 km/h",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "Two buses start from same point in opposite directions, one at 40 km/h and other at 60 km/h. After how many hours will they be 300 km apart?",
+              "optionA": "2 hours",
+              "optionB": "3 hours",
+              "optionC": "4 hours",
+              "optionD": "5 hours",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "title": "Percentage",
+          "difficulty": "Easy",
+          "description": "Practice questions for Percentage",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "What is 25% of 80?",
+              "optionA": "15",
+              "optionB": "20",
+              "optionC": "25",
+              "optionD": "30",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "If 40% of a number is 80, what is the number?",
+              "optionA": "160",
+              "optionB": "180",
+              "optionC": "200",
+              "optionD": "220",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "A number is increased by 20% and then decreased by 20%. What is net change?",
+              "optionA": "0% change",
+              "optionB": "2% decrease",
+              "optionC": "4% decrease",
+              "optionD": "4% increase",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "In an exam, 70% students passed. If 150 students failed, how many appeared?",
+              "optionA": "400",
+              "optionB": "450",
+              "optionC": "500",
+              "optionD": "550",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "What percentage of 50 is 12.5?",
+              "optionA": "20%",
+              "optionB": "25%",
+              "optionC": "30%",
+              "optionD": "35%",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "A man spends 75% of his income. If his income increases by 20%, by what % should he increase his expenditure to save 10% of increased income?",
+              "optionA": "14%",
+              "optionB": "16%",
+              "optionC": "18%",
+              "optionD": "20%",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "If price of sugar increases by 25%, by what % should consumption be reduced to keep expenditure same?",
+              "optionA": "15%",
+              "optionB": "20%",
+              "optionC": "25%",
+              "optionD": "30%",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "A's salary is 20% less than B's salary. B's salary is what % more than A's?",
+              "optionA": "20%",
+              "optionB": "22%",
+              "optionC": "25%",
+              "optionD": "28%",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "In a mixture of 60 liters, ratio of milk to water is 2:1. How much water should be added to make ratio 1:2?",
+              "optionA": "40 liters",
+              "optionB": "50 liters",
+              "optionC": "60 liters",
+              "optionD": "70 liters",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "Population of town increases by 10% annually. If current population is 10000, what will it be after 2 years?",
+              "optionA": "11000",
+              "optionB": "11500",
+              "optionC": "12000",
+              "optionD": "12100",
+              "correctAnswerIndex": 3,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "title": "Simple Interest",
+          "difficulty": "Easy",
+          "description": "Practice questions for Simple Interest",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "Find SI on Rs.5000 at 6% per annum for 3 years?",
+              "optionA": "700",
+              "optionB": "800",
+              "optionC": "900",
+              "optionD": "1000",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "At what rate % per annum will Rs.2000 amount to Rs.2400 in 2 years?",
+              "optionA": "8%",
+              "optionB": "10%",
+              "optionC": "12%",
+              "optionD": "15%",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "In how many years will Rs.3000 become Rs.3600 at 5% per annum SI?",
+              "optionA": "3 years",
+              "optionB": "4 years",
+              "optionC": "5 years",
+              "optionD": "6 years",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "What principal will amount to Rs.6200 in 4 years at 5% per annum SI?",
+              "optionA": "5000",
+              "optionB": "5100",
+              "optionC": "5150",
+              "optionD": "5200",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "If SI on certain sum is Rs.500 for 2 years at 5% per annum, find the sum?",
+              "optionA": "4000",
+              "optionB": "4500",
+              "optionC": "5000",
+              "optionD": "5500",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "A sum doubles itself in 10 years at SI. What is the rate of interest?",
+              "optionA": "8%",
+              "optionB": "10%",
+              "optionC": "12%",
+              "optionD": "15%",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "SI on Rs.1200 for 3 years is Rs.432. Find rate %?",
+              "optionA": "10%",
+              "optionB": "12%",
+              "optionC": "14%",
+              "optionD": "15%",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "At 6% SI per annum, a sum amounts to Rs.8480 in 4 years. Find the sum?",
+              "optionA": "6000",
+              "optionB": "6400",
+              "optionC": "6800",
+              "optionD": "7200",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "The difference between SI and CI on Rs.5000 for 2 years at 4% is?",
+              "optionA": "6",
+              "optionB": "8",
               "optionC": "10",
-              "optionD": "Undefined",
-              "correctAnswerIndex": 0,
-              "explanation": "The logarithm of 1 to any base is always 0 because any number raised to power 0 is 1."
-            },
-            {
-              "questionText": "Value of Sin(90):",
-              "optionA": "0",
-              "optionB": "1",
-              "optionC": "-1",
-              "optionD": "0.5",
+              "optionD": "12",
               "correctAnswerIndex": 1,
-              "explanation": "Sin(90 degrees) or Sin(π/2) is equal to 1."
+              "explanation": ""
             },
             {
-              "questionText": "If x + y = 10 and x - y = 4, value of x?",
+              "questionText": "A man lent Rs.5000 at 6% and Rs.4000 at 8% SI. What is total interest after 2 years?",
+              "optionA": "1200",
+              "optionB": "1240",
+              "optionC": "1280",
+              "optionD": "1320",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "title": "Compound Interest",
+          "difficulty": "Hard",
+          "description": "Practice questions for Compound Interest",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "Find CI on Rs.10000 at 10% per annum for 2 years?",
+              "optionA": "2000",
+              "optionB": "2050",
+              "optionC": "2100",
+              "optionD": "2200",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "What sum will amount to Rs.4840 in 2 years at 10% CI compounded annually?",
+              "optionA": "3800",
+              "optionB": "4000",
+              "optionC": "4200",
+              "optionD": "4400",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "At 5% CI per annum, Rs.10000 becomes how much in 2 years?",
+              "optionA": "10500",
+              "optionB": "10750",
+              "optionC": "11000",
+              "optionD": "11025",
+              "correctAnswerIndex": 3,
+              "explanation": ""
+            },
+            {
+              "questionText": "Difference between CI and SI on Rs.5000 for 2 years at 4% is?",
+              "optionA": "6",
+              "optionB": "8",
+              "optionC": "10",
+              "optionD": "12",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "At what rate will Rs.8000 amount to Rs.8820 in 2 years compounded annually?",
+              "optionA": "4%",
+              "optionB": "5%",
+              "optionC": "6%",
+              "optionD": "8%",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "In how many years will Rs.2000 become Rs.2662 at 10% CI compounded annually?",
+              "optionA": "2 years",
+              "optionB": "3 years",
+              "optionC": "4 years",
+              "optionD": "5 years",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Find CI on Rs.15000 for 2 years at 4% compounded annually?",
+              "optionA": "1224",
+              "optionB": "1248",
+              "optionC": "1272",
+              "optionD": "1296",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "A sum becomes Rs.13230 after 3 years and Rs.12100 after 2 years at CI. Find rate?",
+              "optionA": "8.33%",
+              "optionB": "9.09%",
+              "optionC": "10%",
+              "optionD": "11%",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Rs.7500 becomes Rs.8427 in 2 years at CI. Find rate?",
+              "optionA": "5%",
+              "optionB": "6%",
+              "optionC": "7%",
+              "optionD": "8%",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "What sum invested at 5% CI will amount to Rs.9261 in 3 years?",
+              "optionA": "7500",
+              "optionB": "7800",
+              "optionC": "8000",
+              "optionD": "8200",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "title": "Algebra",
+          "difficulty": "Easy",
+          "description": "Practice questions for Algebra",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "Solve: x + 5 = 12. Find x?",
               "optionA": "5",
               "optionB": "6",
               "optionC": "7",
               "optionD": "8",
               "correctAnswerIndex": 2,
-              "explanation": "Adding equations: (x+y) + (x-y) = 10+4 => 2x=14 => x=7."
+              "explanation": ""
             },
             {
-              "questionText": "Volume of sphere with radius r:",
-              "optionA": "4/3 πr^3",
-              "optionB": "πr^2",
-              "optionC": "2πr",
-              "optionD": "4πr^2",
-              "correctAnswerIndex": 0,
-              "explanation": "The formula for the volume of a sphere is V = 4/3 πr^3."
+              "questionText": "If 2x + 3 = 15, what is x?",
+              "optionA": "4",
+              "optionB": "5",
+              "optionC": "6",
+              "optionD": "7",
+              "correctAnswerIndex": 2,
+              "explanation": ""
             },
             {
-              "questionText": "Roots of x^2 - 5x + 6 = 0 are:",
+              "questionText": "Solve: 3x - 7 = 8. Find x?",
+              "optionA": "3",
+              "optionB": "4",
+              "optionC": "5",
+              "optionD": "6",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "If x/4 = 5, what is x?",
+              "optionA": "15",
+              "optionB": "18",
+              "optionC": "20",
+              "optionD": "25",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "Solve: 2(x + 3) = 14. Find x?",
+              "optionA": "2",
+              "optionB": "3",
+              "optionC": "4",
+              "optionD": "5",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "If x² = 36, what is x? (positive value)",
+              "optionA": "4",
+              "optionB": "5",
+              "optionC": "6",
+              "optionD": "7",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "Solve: 5x + 10 = 3x + 20. Find x?",
+              "optionA": "3",
+              "optionB": "4",
+              "optionC": "5",
+              "optionD": "6",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "If x + y = 15 and x - y = 5, what is x?",
+              "optionA": "8",
+              "optionB": "9",
+              "optionC": "10",
+              "optionD": "11",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "Solve: (x + 2)(x - 3) = 0. What are values of x?",
               "optionA": "2, 3",
-              "optionB": "1, 6",
-              "optionC": "-2, -3",
-              "optionD": "-1, -6",
-              "correctAnswerIndex": 0,
-              "explanation": "(x-2)(x-3)=0 gives roots x=2 and x=3. Check: 2^2-5(2)+6=0."
+              "optionB": "-2, 3",
+              "optionC": "2, -3",
+              "optionD": "-2, -3",
+              "correctAnswerIndex": 1,
+              "explanation": ""
             },
             {
-              "questionText": "Limit x->0 of (sin x)/x is:",
-              "optionA": "0",
-              "optionB": "1",
-              "optionC": "Undefined",
-              "optionD": "Infinity",
+              "questionText": "If 3x + 2y = 12 and x = 2, what is y?",
+              "optionA": "2",
+              "optionB": "3",
+              "optionC": "4",
+              "optionD": "5",
               "correctAnswerIndex": 1,
-              "explanation": "This is a standard limit identity: lim(x->0) (sin x)/x = 1."
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "title": "Ages",
+          "difficulty": "Medium",
+          "description": "Practice questions for Ages",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "Father is 3 times as old as son. After 15 years, he will be twice as old. Find father's present age?",
+              "optionA": "40",
+              "optionB": "45",
+              "optionC": "50",
+              "optionD": "55",
+              "correctAnswerIndex": 1,
+              "explanation": ""
             },
             {
-              "questionText": "Probability of drawing Ace from deck:",
-              "optionA": "1/13",
-              "optionB": "1/52",
-              "optionC": "4/13",
-              "optionD": "1/4",
-              "correctAnswerIndex": 0,
-              "explanation": "There are 4 aces in a deck of 52 cards. Probability = 4/52 = 1/13."
+              "questionText": "Sum of ages of A and B is 50. After 5 years, A will be twice as old as B. Find A's present age?",
+              "optionA": "30",
+              "optionB": "32",
+              "optionC": "35",
+              "optionD": "38",
+              "correctAnswerIndex": 1,
+              "explanation": ""
             },
             {
-              "questionText": "12! / 10! =",
-              "optionA": "132",
-              "optionB": "120",
-              "optionC": "2",
-              "optionD": "12",
+              "questionText": "10 years ago, A was half of B's age. If ratio of their present ages is 3:4, what is B's present age?",
+              "optionA": "30",
+              "optionB": "35",
+              "optionC": "40",
+              "optionD": "45",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "A is 5 years older than B. After 10 years, A will be 1.5 times as old as B. Find A's present age?",
+              "optionA": "20",
+              "optionB": "25",
+              "optionC": "30",
+              "optionD": "35",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Ratio of ages of A and B is 5:3. After 6 years, ratio becomes 7:5. Find A's present age?",
+              "optionA": "20",
+              "optionB": "25",
+              "optionC": "30",
+              "optionD": "35",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "Average age of 4 persons is 30 years. If ages of 3 persons are 28, 32, 25, what is age of 4th person?",
+              "optionA": "30",
+              "optionB": "33",
+              "optionC": "35",
+              "optionD": "37",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "Mother is 3 times as old as daughter. 5 years back, she was 4 times as old. Find mother's present age?",
+              "optionA": "35",
+              "optionB": "40",
+              "optionC": "45",
+              "optionD": "50",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "Sum of ages of 5 children is 50 years. What will be sum after 10 years?",
+              "optionA": "75",
+              "optionB": "90",
+              "optionC": "100",
+              "optionD": "110",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "Average age of 10 students decreases by 1 year when teacher leaves. If teacher's age is 55, find average age of students?",
+              "optionA": "40",
+              "optionB": "43",
+              "optionC": "45",
+              "optionD": "48",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "Ratio of A and B's ages is 4:3. After 6 years, it becomes 11:9. Find A's present age?",
+              "optionA": "20",
+              "optionB": "24",
+              "optionC": "28",
+              "optionD": "32",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "title": "Averages",
+          "difficulty": "Medium",
+          "description": "Practice questions for Averages",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "Find average of 10, 20, 30, 40, 50?",
+              "optionA": "25",
+              "optionB": "28",
+              "optionC": "30",
+              "optionD": "32",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "Average of 5 numbers is 27. If one number is excluded, average becomes 25. Find excluded number?",
+              "optionA": "30",
+              "optionB": "33",
+              "optionC": "35",
+              "optionD": "37",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "Average of 10 numbers is 15. If 5 is added to each number, new average is?",
+              "optionA": "15",
+              "optionB": "18",
+              "optionC": "20",
+              "optionD": "25",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "Average of 6 numbers is 30. If first number is 25, what is average of remaining 5?",
+              "optionA": "30",
+              "optionB": "31",
+              "optionC": "32",
+              "optionD": "33",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Average of 8 numbers is 40. Average of first 3 is 35, average of next 3 is 42. What is average of last 2?",
+              "optionA": "38",
+              "optionB": "40",
+              "optionC": "42",
+              "optionD": "45",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "Average salary of 20 workers is Rs.900. If manager's salary is Rs.1500, find average salary including manager?",
+              "optionA": "920",
+              "optionB": "940",
+              "optionC": "950",
+              "optionD": "960",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "Average of 11 numbers is 60. If average of first 6 is 58 and last 6 is 63, find 6th number?",
+              "optionA": "60",
+              "optionB": "66",
+              "optionC": "72",
+              "optionD": "78",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Average marks of 100 students is 40. If average of passed students is 50 and failed is 20, how many passed?",
+              "optionA": "50",
+              "optionB": "60",
+              "optionC": "66",
+              "optionD": "70",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "Average of 5 consecutive numbers is 20. Find largest number?",
+              "optionA": "20",
+              "optionB": "21",
+              "optionC": "22",
+              "optionD": "23",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "Average of 15 numbers is 40. Average of first 8 is 35, average of last 8 is 45. Find 8th number?",
+              "optionA": "35",
+              "optionB": "38",
+              "optionC": "40",
+              "optionD": "42",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "title": "Mixtures & Alligations",
+          "difficulty": "Medium",
+          "description": "Practice questions for Mixtures & Alligations",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "In what ratio must water be mixed with milk costing Rs.12 per liter to get mixture worth Rs.10 per liter?",
+              "optionA": "1:5",
+              "optionB": "1:6",
+              "optionC": "2:5",
+              "optionD": "1:4",
               "correctAnswerIndex": 0,
-              "explanation": "12! = 12 × 11 × 10!. So 12!/10! = 12 × 11 = 132."
+              "explanation": ""
+            },
+            {
+              "questionText": "A 20 liter mixture of milk and water contains 20% water. How much water should be added to make it 25% water?",
+              "optionA": "1 liter",
+              "optionB": "1.33 liters",
+              "optionC": "1.5 liters",
+              "optionD": "2 liters",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Two varieties of tea at Rs.18 and Rs.16 per kg are mixed in ratio 2:3. What is price of mixture per kg?",
+              "optionA": "16.8",
+              "optionB": "17",
+              "optionC": "17.2",
+              "optionD": "17.5",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "In 40 liters mixture of milk and water, ratio is 3:1. How much water should be added to make ratio 2:1?",
+              "optionA": "5 liters",
+              "optionB": "6.67 liters",
+              "optionC": "8 liters",
+              "optionD": "10 liters",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "8 liters are drawn from a cask of wine and replaced with water. If ratio of wine to water is 3:1, how much wine did cask originally hold?",
+              "optionA": "24 liters",
+              "optionB": "28 liters",
+              "optionC": "30 liters",
+              "optionD": "32 liters",
+              "correctAnswerIndex": 3,
+              "explanation": ""
+            },
+            {
+              "questionText": "A vessel contains 20 liters of mixture of milk and water in ratio 3:2. How much mixture should be taken out and replaced with water to make ratio 1:1?",
+              "optionA": "5 liters",
+              "optionB": "6 liters",
+              "optionC": "7 liters",
+              "optionD": "8 liters",
+              "correctAnswerIndex": 3,
+              "explanation": ""
+            },
+            {
+              "questionText": "How many kg of rice at Rs.6.60 per kg be mixed with 56 kg rice at Rs.9.60 per kg to get mixture worth Rs.8.20 per kg?",
+              "optionA": "48 kg",
+              "optionB": "52 kg",
+              "optionC": "56 kg",
+              "optionD": "60 kg",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "A mixture of 150 liters of wine and water contains 20% water. How much water must be added to make water 25%?",
+              "optionA": "8 liters",
+              "optionB": "10 liters",
+              "optionC": "12 liters",
+              "optionD": "15 liters",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "In what ratio must a grocer mix two varieties of tea worth Rs.60 and Rs.65 per kg to get mixture worth Rs.62 per kg?",
+              "optionA": "3:2",
+              "optionB": "2:3",
+              "optionC": "3:4",
+              "optionD": "4:3",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "A 40-liter mixture contains milk and water in ratio 5:3. How much water should be added to make ratio 5:4?",
+              "optionA": "4 liters",
+              "optionB": "5 liters",
+              "optionC": "6 liters",
+              "optionD": "8 liters",
+              "correctAnswerIndex": 1,
+              "explanation": ""
             }
           ]
         },
         {
-          "title": "Number Properties",
+          "title": "Partnership",
           "difficulty": "Medium",
-          "description": "Understanding properties of numbers",
+          "description": "Practice questions for Partnership",
           "time_limit": 15,
           "questions": [
             {
-              "questionText": "What is 25% of 400?",
-              "optionA": "75",
-              "optionB": "100",
-              "optionC": "125",
-              "optionD": "150",
+              "questionText": "A and B invest Rs.3000 and Rs.4000 respectively. After 1 year, profit is Rs.1400. Find A's share?",
+              "optionA": "500",
+              "optionB": "600",
+              "optionC": "700",
+              "optionD": "800",
               "correctAnswerIndex": 1,
-              "explanation": "25% is 1/4. 400 / 4 = 100."
-            }
-          ]
-        },
-        {
-          "title": "Geometry Basics",
-          "difficulty": "Easy",
-          "description": "Lines, angles and shapes",
-          "time_limit": 15,
-          "questions": [
+              "explanation": ""
+            },
             {
-              "questionText": "What is 25% of 400?",
-              "optionA": "75",
-              "optionB": "100",
-              "optionC": "125",
-              "optionD": "150",
-              "correctAnswerIndex": 1,
-              "explanation": "25% is 1/4. 400 / 4 = 100."
-            }
-          ]
-        },
-        {
-          "title": "Profit and Loss",
-          "difficulty": "Medium",
-          "description": "Calculate profits, losses and discounts",
-          "time_limit": 15,
-          "questions": [
+              "questionText": "A starts business with Rs.2000. After 6 months, B joins with Rs.3000. At year end, profit is Rs.1600. Find A's share?",
+              "optionA": "800",
+              "optionB": "900",
+              "optionC": "1000",
+              "optionD": "1100",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
             {
-              "questionText": "What is 25% of 400?",
-              "optionA": "75",
-              "optionB": "100",
-              "optionC": "125",
-              "optionD": "150",
-              "correctAnswerIndex": 1,
-              "explanation": "25% is 1/4. 400 / 4 = 100."
-            }
-          ]
-        },
-        {
-          "title": "Time and Work",
-          "difficulty": "Hard",
-          "description": "Solve time and work efficiency problems",
-          "time_limit": 15,
-          "questions": [
+              "questionText": "A, B, C invest in ratio 2:3:5. If total profit is Rs.50000, what is C's share?",
+              "optionA": "20000",
+              "optionB": "22000",
+              "optionC": "25000",
+              "optionD": "28000",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
             {
-              "questionText": "What is 25% of 400?",
-              "optionA": "75",
-              "optionB": "100",
-              "optionC": "125",
-              "optionD": "150",
-              "correctAnswerIndex": 1,
-              "explanation": "25% is 1/4. 400 / 4 = 100."
-            }
-          ]
-        },
-        {
-          "title": "Speed, Time and Distance",
-          "difficulty": "Medium",
-          "description": "Relate speed, time and distance",
-          "time_limit": 15,
-          "questions": [
+              "questionText": "A and B invest Rs.5000 and Rs.6000. A receives Rs.200 per month as salary and remaining profit is divided equally. If total profit is Rs.9000, find A's total share?",
+              "optionA": "4600",
+              "optionB": "4800",
+              "optionC": "5000",
+              "optionD": "5200",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
             {
-              "questionText": "What is 25% of 400?",
-              "optionA": "75",
-              "optionB": "100",
-              "optionC": "125",
-              "optionD": "150",
-              "correctAnswerIndex": 1,
-              "explanation": "25% is 1/4. 400 / 4 = 100."
-            }
-          ]
-        },
-        {
-          "title": "Simple and Compound Interest",
-          "difficulty": "Easy",
-          "description": "Calculate interest rates over time",
-          "time_limit": 15,
-          "questions": [
+              "questionText": "A invests Rs.6000 for 6 months and B invests Rs.4000 for 9 months. If profit is Rs.4000, find A's share?",
+              "optionA": "1600",
+              "optionB": "1800",
+              "optionC": "2000",
+              "optionD": "2400",
+              "correctAnswerIndex": 3,
+              "explanation": ""
+            },
             {
-              "questionText": "What is 25% of 400?",
-              "optionA": "75",
-              "optionB": "100",
-              "optionC": "125",
-              "optionD": "150",
+              "questionText": "A and B started a business with Rs.20000 and Rs.25000. After 8 months, A withdraws Rs.5000 while B adds Rs.5000. At year end, if profit is Rs.69000, find A's share?",
+              "optionA": "28000",
+              "optionB": "30000",
+              "optionC": "32000",
+              "optionD": "34000",
               "correctAnswerIndex": 1,
-              "explanation": "25% is 1/4. 400 / 4 = 100."
-            }
-          ]
-        },
-        {
-          "title": "Ratios and Proportions",
-          "difficulty": "Easy",
-          "description": "Compare quantities and ratios",
-          "time_limit": 15,
-          "questions": [
+              "explanation": ""
+            },
             {
-              "questionText": "What is 25% of 400?",
-              "optionA": "75",
-              "optionB": "100",
-              "optionC": "125",
-              "optionD": "150",
-              "correctAnswerIndex": 1,
-              "explanation": "25% is 1/4. 400 / 4 = 100."
-            }
-          ]
-        },
-        {
-          "title": "Permutations and Combinations",
-          "difficulty": "Hard",
-          "description": "Count possibilities and arrangements",
-          "time_limit": 15,
-          "questions": [
+              "questionText": "A, B, C invest Rs.2000, Rs.3000, Rs.4000. A gets 10% of profit as manager's commission and rest is divided in ratio of investments. If total profit is Rs.9000, find A's total share?",
+              "optionA": "2400",
+              "optionB": "2600",
+              "optionC": "2800",
+              "optionD": "3000",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
             {
-              "questionText": "What is 25% of 400?",
-              "optionA": "75",
-              "optionB": "100",
-              "optionC": "125",
-              "optionD": "150",
-              "correctAnswerIndex": 1,
-              "explanation": "25% is 1/4. 400 / 4 = 100."
-            }
-          ]
-        },
-        {
-          "title": "Probability",
-          "difficulty": "Medium",
-          "description": "Calculate likelihood of events",
-          "time_limit": 15,
-          "questions": [
+              "questionText": "A and B invest in ratio 3:4. After 4 months, A increases his share by 50%. If at year end profit is Rs.22000, find A's share?",
+              "optionA": "9000",
+              "optionB": "9500",
+              "optionC": "10000",
+              "optionD": "10500",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
             {
-              "questionText": "What is 25% of 400?",
-              "optionA": "75",
-              "optionB": "100",
-              "optionC": "125",
-              "optionD": "150",
-              "correctAnswerIndex": 1,
-              "explanation": "25% is 1/4. 400 / 4 = 100."
-            }
-          ]
-        },
-        {
-          "title": "Data Interpretation",
-          "difficulty": "Hard",
-          "description": "Analyze data from charts and graphs",
-          "time_limit": 15,
-          "questions": [
+              "questionText": "A invests Rs.10000 for entire year while B invests Rs.20000 but withdraws it after 6 months. If profit is Rs.15000, find B's share?",
+              "optionA": "6000",
+              "optionB": "7000",
+              "optionC": "7500",
+              "optionD": "8000",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
             {
-              "questionText": "What is 25% of 400?",
-              "optionA": "75",
-              "optionB": "100",
-              "optionC": "125",
-              "optionD": "150",
-              "correctAnswerIndex": 1,
-              "explanation": "25% is 1/4. 400 / 4 = 100."
+              "questionText": "A, B, C rent pasture for Rs.870. A puts 12 oxen for 3 months, B puts 16 oxen for 6 months, C puts 18 oxen for 4 months. How much should C pay?",
+              "optionA": "270",
+              "optionB": "288",
+              "optionC": "306",
+              "optionD": "324",
+              "correctAnswerIndex": 2,
+              "explanation": ""
             }
           ]
         }
@@ -375,338 +1185,1472 @@
       "name": "Reasoning",
       "quizzes": [
         {
-          "title": "Logical Patterns",
-          "difficulty": "Medium",
-          "description": "Identify patterns and sequences",
+          "title": "Logical Reasoning",
+          "difficulty": "Easy",
+          "description": "Practice questions for Logical Reasoning",
           "time_limit": 15,
           "questions": [
             {
-              "questionText": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
-              "optionA": "(1/3)",
-              "optionB": "(1/8)",
-              "optionC": "(2/8)",
-              "optionD": "(1/16)",
-              "correctAnswerIndex": 1,
-              "explanation": "Each number is divided by 2. Next is 1/4 divided by 2 = 1/8."
+              "questionText": "All cats are animals. Some animals are dogs. Therefore:",
+              "optionA": "All dogs are cats",
+              "optionB": "Some cats are dogs",
+              "optionC": "All animals are cats",
+              "optionD": "None can be concluded",
+              "correctAnswerIndex": 3,
+              "explanation": ""
             },
             {
-              "questionText": "SCD, TEF, UGH, ____, WKL",
-              "optionA": "CMN",
-              "optionB": "UJI",
-              "optionC": "VIJ",
-              "optionD": "IJT",
+              "questionText": "Find the odd one out: 2, 4, 6, 9, 10",
+              "optionA": "2",
+              "optionB": "4",
+              "optionC": "9",
+              "optionD": "10",
               "correctAnswerIndex": 2,
-              "explanation": "First letters: S, T, U, V, W. Second: C, E, G, I, K. Third: D, F, H, J, L. Answer is VIJ."
+              "explanation": ""
             },
             {
-              "questionText": "Which word does not belong with the others?",
-              "optionA": "Parsley",
-              "optionB": "Basil",
-              "optionC": "Dill",
-              "optionD": "Mayonnaise",
+              "questionText": "If COMPUTER is coded as DPNQVUFS, how is MOUSE coded?",
+              "optionA": "NPVTF",
+              "optionB": "NQVTF",
+              "optionC": "LPSTF",
+              "optionD": "MQVTF",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "Complete the series: 2, 6, 12, 20, 30, ?",
+              "optionA": "40",
+              "optionB": "42",
+              "optionC": "44",
+              "optionD": "46",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "If + means ×, × means -, - means ÷, and ÷ means +, then 8 + 2 - 4 ÷ 3 = ?",
+              "optionA": "5",
+              "optionB": "7",
+              "optionC": "9",
+              "optionD": "11",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Find next in series: AB, DEF, GHIJ, ?",
+              "optionA": "KLMNO",
+              "optionB": "KLMN",
+              "optionC": "LMNOP",
+              "optionD": "MNOP",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "If FRIEND is coded as HUMJTK, how is CANDLE coded?",
+              "optionA": "EDRIRL",
+              "optionB": "ECPNMF",
+              "optionC": "DEQHOB",
+              "optionD": "DBOCMF",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "Pointing to a man, a woman said, \"His mother is the only daughter of my mother.\" How is the woman related to man?",
+              "optionA": "Mother",
+              "optionB": "Daughter",
+              "optionC": "Sister",
+              "optionD": "Aunt",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "In a certain code, RAIN is written as 8$%6 and MORE is written as 7#8@. How is REMAIN written?",
+              "optionA": "8@7$%6",
+              "optionB": "8$7%@6",
+              "optionC": "8@%7$6",
+              "optionD": "8$%@76",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "If 5th day after tomorrow is Friday, what day was 3 days before yesterday?",
+              "optionA": "Monday",
+              "optionB": "Tuesday",
+              "optionC": "Wednesday",
+              "optionD": "Thursday",
               "correctAnswerIndex": 3,
-              "explanation": "Parsley, Basil, and Dill are herbs. Mayonnaise is a sauce."
-            },
-            {
-              "questionText": "Melt is to Liquid as Freeze is to:",
-              "optionA": "Ice",
-              "optionB": "Solid",
-              "optionC": "Condense",
-              "optionD": "Crystal",
-              "correctAnswerIndex": 1,
-              "explanation": "Melting changes state to liquid. Freezing changes state to solid."
-            },
-            {
-              "questionText": "Pointing to a photograph, a man said, 'I have no brother or sister but that man's father is my father's son.' Whose photograph was it?",
-              "optionA": "His own",
-              "optionB": "His Son",
-              "optionC": "His Father",
-              "optionD": "His Nephew",
-              "correctAnswerIndex": 1,
-              "explanation": "Since he has no siblings, 'my father's son' is himself. So 'that man's father is [me]'. It is his son's photo."
-            },
-            {
-              "questionText": "A, P, R, X, S and Z are sitting in a row. S and Z are in the centre. A and P are at the ends. R is sitting to the left of A. Who is to the right of P?",
-              "optionA": "A",
-              "optionB": "X",
-              "optionC": "S",
-              "optionD": "Z",
-              "correctAnswerIndex": 1,
-              "explanation": "Arrangement: P X S Z R A. The person to the right of P is X."
-            },
-            {
-              "questionText": "Statement: 'All cars are cats'. Conclusion: 'Some cats are cars'.",
-              "optionA": "True",
-              "optionB": "False",
-              "optionC": "Uncertain",
-              "optionD": "None",
-              "correctAnswerIndex": 0,
-              "explanation": "If all cars are cats, the set of cars is inside cats. Hence, the intersection exists, so some cats are indeed cars."
-            },
-            {
-              "questionText": "Find the odd one out.",
-              "optionA": "Ear",
-              "optionB": "Eye",
-              "optionC": "Nose",
-              "optionD": "Kidney",
-              "correctAnswerIndex": 3,
-              "explanation": "Ear, Eye, and Nose are external sense organs. Kidney is an internal organ."
-            },
-            {
-              "questionText": "If CODE is coded as DPEF, how is TEAM coded?",
-              "optionA": "UFBN",
-              "optionB": "SFBN",
-              "optionC": "UFB",
-              "optionD": "VFBN",
-              "correctAnswerIndex": 0,
-              "explanation": "Each letter is shifted forward by 1 (C->D, O->P...). T->U, E->F, A->B, M->N. Answer is UFBN."
-            },
-            {
-              "questionText": "Arrange the words: 1. Key 2. Door 3. Lock 4. Room",
-              "optionA": "1,3,2,4",
-              "optionB": "1,2,3,4",
-              "optionC": "4,2,3,1",
-              "optionD": "1,3,4,2",
-              "correctAnswerIndex": 0,
-              "explanation": "Logical order: Key -> Lock -> Door -> Room."
+              "explanation": ""
             }
           ]
         },
         {
           "title": "Verbal Reasoning",
-          "difficulty": "Easy",
-          "description": "Analyze verbal arguments",
+          "difficulty": "Medium",
+          "description": "Practice questions for Verbal Reasoning",
           "time_limit": 15,
           "questions": [
             {
-              "questionText": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
-              "optionA": "(1/3)",
-              "optionB": "(1/8)",
-              "optionC": "(2/8)",
-              "optionD": "(1/16)",
+              "questionText": "Choose the synonym of ABUNDANT:",
+              "optionA": "Scarce",
+              "optionB": "Plentiful",
+              "optionC": "Limited",
+              "optionD": "Rare",
               "correctAnswerIndex": 1,
-              "explanation": "Each number is divided by 2. Next is 1/4 divided by 2 = 1/8."
+              "explanation": ""
+            },
+            {
+              "questionText": "Choose the antonym of OPTIMISTIC:",
+              "optionA": "Hopeful",
+              "optionB": "Positive",
+              "optionC": "Pessimistic",
+              "optionD": "Cheerful",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "Complete: Book is to Reading as Fork is to?",
+              "optionA": "Drawing",
+              "optionB": "Writing",
+              "optionC": "Eating",
+              "optionD": "Stirring",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "Choose synonym of CANDID:",
+              "optionA": "Frank",
+              "optionB": "Secretive",
+              "optionC": "Dishonest",
+              "optionD": "Clever",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "Choose antonym of ARTIFICIAL:",
+              "optionA": "Fake",
+              "optionB": "Natural",
+              "optionC": "Synthetic",
+              "optionD": "Man-made",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Complete: Dog is to Bark as Cat is to?",
+              "optionA": "Meow",
+              "optionB": "Howl",
+              "optionC": "Roar",
+              "optionD": "Chirp",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "Choose synonym of ENORMOUS:",
+              "optionA": "Tiny",
+              "optionB": "Huge",
+              "optionC": "Small",
+              "optionD": "Medium",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Choose antonym of COURAGE:",
+              "optionA": "Bravery",
+              "optionB": "Fear",
+              "optionC": "Valor",
+              "optionD": "Boldness",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Complete: Pen is to Write as Knife is to?",
+              "optionA": "Read",
+              "optionB": "Cut",
+              "optionC": "Eat",
+              "optionD": "Cook",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Choose synonym of BRIEF:",
+              "optionA": "Long",
+              "optionB": "Short",
+              "optionC": "Detailed",
+              "optionD": "Extended",
+              "correctAnswerIndex": 1,
+              "explanation": ""
             }
           ]
         },
         {
-          "title": "Coding-Decoding",
+          "title": "Analytical Reasoning",
           "difficulty": "Hard",
-          "description": "Crack the codes",
+          "description": "Practice questions for Analytical Reasoning",
           "time_limit": 15,
           "questions": [
             {
-              "questionText": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
-              "optionA": "(1/3)",
-              "optionB": "(1/8)",
-              "optionC": "(2/8)",
-              "optionD": "(1/16)",
+              "questionText": "If A is taller than B, and B is taller than C, then:",
+              "optionA": "C is tallest",
+              "optionB": "A is tallest",
+              "optionC": "B is tallest",
+              "optionD": "Cannot determine",
               "correctAnswerIndex": 1,
-              "explanation": "Each number is divided by 2. Next is 1/4 divided by 2 = 1/8."
+              "explanation": ""
+            },
+            {
+              "questionText": "In a row of 40 students, Sam is 16th from left. What is his position from right?",
+              "optionA": "24",
+              "optionB": "25",
+              "optionC": "26",
+              "optionD": "27",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "A is B's brother. B is C's mother. D is C's father. How is A related to D?",
+              "optionA": "Brother",
+              "optionB": "Brother-in-law",
+              "optionC": "Son",
+              "optionD": "Cousin",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "If South-East becomes North, what will West become?",
+              "optionA": "North-East",
+              "optionB": "South-East",
+              "optionC": "North-West",
+              "optionD": "South-West",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "A clock shows 3:00. What is the angle between hour and minute hands?",
+              "optionA": "60°",
+              "optionB": "75°",
+              "optionC": "90°",
+              "optionD": "120°",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "Five friends are sitting in a row. A is to the left of B but right of C. D is right of B. E is right of D. Who is in the middle?",
+              "optionA": "A",
+              "optionB": "B",
+              "optionC": "C",
+              "optionD": "D",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "If 1st January 2024 is Monday, what day is 1st January 2025?",
+              "optionA": "Monday",
+              "optionB": "Tuesday",
+              "optionC": "Wednesday",
+              "optionD": "Thursday",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "In a family of 6, M is son of Q, but Q is not mother of M. P is daughter of Q. R is brother of P. How is Q related to R?",
+              "optionA": "Mother",
+              "optionB": "Father",
+              "optionC": "Aunt",
+              "optionD": "Uncle",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "If P $ Q means P is father of Q, P # Q means P is mother of Q, P * Q means P is sister of Q. What does A $ B # C * D mean?",
+              "optionA": "A is grandfather of D",
+              "optionB": "A is father of D",
+              "optionC": "A is uncle of D",
+              "optionD": "A is brother of D",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "In a class, Ram ranks 7th from top and 26th from bottom. How many students are in the class?",
+              "optionA": "31",
+              "optionB": "32",
+              "optionC": "33",
+              "optionD": "34",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "title": "Number Series",
+          "difficulty": "Medium",
+          "description": "Practice questions for Number Series",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "Find next: 2, 4, 8, 16, ?",
+              "optionA": "24",
+              "optionB": "28",
+              "optionC": "32",
+              "optionD": "36",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "Find next: 1, 4, 9, 16, 25, ?",
+              "optionA": "30",
+              "optionB": "32",
+              "optionC": "34",
+              "optionD": "36",
+              "correctAnswerIndex": 3,
+              "explanation": ""
+            },
+            {
+              "questionText": "Find next: 3, 6, 12, 24, ?",
+              "optionA": "36",
+              "optionB": "40",
+              "optionC": "48",
+              "optionD": "52",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "Find next: 5, 10, 20, 40, ?",
+              "optionA": "60",
+              "optionB": "70",
+              "optionC": "80",
+              "optionD": "90",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "Find next: 1, 1, 2, 3, 5, 8, ?",
+              "optionA": "11",
+              "optionB": "12",
+              "optionC": "13",
+              "optionD": "14",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "Find next: 2, 5, 10, 17, 26, ?",
+              "optionA": "35",
+              "optionB": "36",
+              "optionC": "37",
+              "optionD": "38",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "Find next: 7, 14, 28, 56, ?",
+              "optionA": "84",
+              "optionB": "98",
+              "optionC": "102",
+              "optionD": "112",
+              "correctAnswerIndex": 3,
+              "explanation": ""
+            },
+            {
+              "questionText": "Find next: 3, 9, 27, 81, ?",
+              "optionA": "162",
+              "optionB": "216",
+              "optionC": "243",
+              "optionD": "324",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "Find next: 11, 13, 17, 19, 23, ?",
+              "optionA": "27",
+              "optionB": "29",
+              "optionC": "31",
+              "optionD": "33",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Find next: 100, 50, 25, 12.5, ?",
+              "optionA": "5",
+              "optionB": "6.25",
+              "optionC": "7.5",
+              "optionD": "10",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "title": "Letter Series",
+          "difficulty": "Medium",
+          "description": "Practice questions for Letter Series",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "Find next: A, C, E, G, ?",
+              "optionA": "H",
+              "optionB": "I",
+              "optionC": "J",
+              "optionD": "K",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Find next: B, D, F, H, ?",
+              "optionA": "I",
+              "optionB": "J",
+              "optionC": "K",
+              "optionD": "L",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Find next: Z, X, V, T, ?",
+              "optionA": "P",
+              "optionB": "Q",
+              "optionC": "R",
+              "optionD": "S",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "Find next: ACE, FHJ, KMO, ?",
+              "optionA": "NPR",
+              "optionB": "PRT",
+              "optionC": "PRV",
+              "optionD": "QSU",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Find next: BAC, DFE, HJG, ?",
+              "optionA": "LMI",
+              "optionB": "LNI",
+              "optionC": "MNI",
+              "optionD": "LNJ",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Find next: AZ, BY, CX, ?",
+              "optionA": "DV",
+              "optionB": "DW",
+              "optionC": "EW",
+              "optionD": "EV",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Find next: AB, CD, EF, GH, ?",
+              "optionA": "HI",
+              "optionB": "IJ",
+              "optionC": "JK",
+              "optionD": "KL",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Find next: PQR, STU, VWX, ?",
+              "optionA": "XYZ",
+              "optionB": "YZA",
+              "optionC": "ZAB",
+              "optionD": "ABC",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Find next: ACF, BEG, CFH, ?",
+              "optionA": "DGI",
+              "optionB": "DEI",
+              "optionC": "DFI",
+              "optionD": "EGI",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "Find next: MN, OP, QR, ?",
+              "optionA": "RS",
+              "optionB": "ST",
+              "optionC": "TU",
+              "optionD": "UV",
+              "correctAnswerIndex": 1,
+              "explanation": ""
             }
           ]
         },
         {
           "title": "Blood Relations",
-          "difficulty": "Medium",
-          "description": "Deduce family relationships",
+          "difficulty": "Easy",
+          "description": "Practice questions for Blood Relations",
           "time_limit": 15,
           "questions": [
             {
-              "questionText": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
-              "optionA": "(1/3)",
-              "optionB": "(1/8)",
-              "optionC": "(2/8)",
-              "optionD": "(1/16)",
+              "questionText": "Pointing to a photograph, a man says, \"She is the daughter of my grandfather's only son.\" Who is in the photograph?",
+              "optionA": "His daughter",
+              "optionB": "His sister",
+              "optionC": "His niece",
+              "optionD": "His mother",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "A is B's sister. C is B's mother. D is C's father. How is A related to D?",
+              "optionA": "Grandmother",
+              "optionB": "Granddaughter",
+              "optionC": "Daughter",
+              "optionD": "Cannot determine",
               "correctAnswerIndex": 1,
-              "explanation": "Each number is divided by 2. Next is 1/4 divided by 2 = 1/8."
+              "explanation": ""
+            },
+            {
+              "questionText": "If A + B means A is brother of B, A × B means A is son of B, A ÷ B means A is wife of B. What does P + Q × R ÷ S mean?",
+              "optionA": "P is uncle of S",
+              "optionB": "P is nephew of S",
+              "optionC": "P is brother of S",
+              "optionD": "P is son of S",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "Introducing a man, a woman says, \"He is the only son of my mother's mother.\" How is the man related to woman?",
+              "optionA": "Uncle",
+              "optionB": "Father",
+              "optionC": "Brother",
+              "optionD": "Cousin",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "A is father of C and D is son of B. E is brother of A. If C is sister of D, how is B related to E?",
+              "optionA": "Sister",
+              "optionB": "Sister-in-law",
+              "optionC": "Brother",
+              "optionD": "Brother-in-law",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "P is Q's brother. R is Q's mother. S is R's father. T is S's mother. How is P related to T?",
+              "optionA": "Grandson",
+              "optionB": "Granddaughter",
+              "optionC": "Great grandson",
+              "optionD": "Great granddaughter",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "Pointing to a boy, Meena says, \"He is the son of my grandfather's only daughter.\" How is boy related to Meena?",
+              "optionA": "Brother",
+              "optionB": "Son",
+              "optionC": "Uncle",
+              "optionD": "Cousin",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "A is B's brother. C is D's father. E is B's mother. A and D are brothers. How is E related to C?",
+              "optionA": "Sister",
+              "optionB": "Sister-in-law",
+              "optionC": "Mother",
+              "optionD": "Wife",
+              "correctAnswerIndex": 3,
+              "explanation": ""
+            },
+            {
+              "questionText": "M is son of P. Q is daughter of M. S is aunt of Q. R is daughter of S. How is M related to R?",
+              "optionA": "Uncle",
+              "optionB": "Cousin",
+              "optionC": "Brother",
+              "optionD": "Father",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "A and B are brothers. C and D are sisters. A's son is D's brother. How is B related to C?",
+              "optionA": "Father",
+              "optionB": "Brother",
+              "optionC": "Uncle",
+              "optionD": "Grandfather",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "title": "Coding-Decoding",
+          "difficulty": "Easy",
+          "description": "Practice questions for Coding-Decoding",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "If CAT is coded as 24120, how is DOG coded?",
+              "optionA": "4157",
+              "optionB": "41520",
+              "optionC": "4715",
+              "optionD": "31512",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "If DELHI is coded as CCIDD, how is BOMBAY coded?",
+              "optionA": "ALCXV",
+              "optionB": "ANLXZ",
+              "optionC": "BNCXZ",
+              "optionD": "ANLYY",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "In a code, ROAD is URDG. How is SWAN coded?",
+              "optionA": "VZDQ",
+              "optionB": "VYCQ",
+              "optionC": "UYBP",
+              "optionD": "VZCP",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "If CLOCK is coded as KCOLC, how is TABLE coded?",
+              "optionA": "ELBAT",
+              "optionB": "BELAT",
+              "optionC": "ELBAL",
+              "optionD": "BLATE",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "If MISTAKE is coded as 9765412, how is TAKE coded?",
+              "optionA": "1152",
+              "optionB": "1412",
+              "optionC": "5412",
+              "optionD": "4152",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "In a code, MONKEY is XDJMNL. How is TIGER coded?",
+              "optionA": "SHFDQ",
+              "optionB": "UJHFS",
+              "optionC": "QDFHS",
+              "optionD": "SDFHT",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "If ROSE is coded as TQUG, how is CHAIR coded?",
+              "optionA": "EJCKT",
+              "optionB": "EJCKR",
+              "optionC": "DKBHS",
+              "optionD": "EJCHQ",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "If EARTH is written as 41590, how is HEART written?",
+              "optionA": "04159",
+              "optionB": "81459",
+              "optionC": "81950",
+              "optionD": "04951",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "In a certain code, if LEMON is 56789 and MELON is 86579, what is MELON?",
+              "optionA": "86579",
+              "optionB": "76589",
+              "optionC": "68759",
+              "optionD": "57689",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "If SERVANT is coded as VBOERS, how is KITCHEN coded?",
+              "optionA": "HCITEN",
+              "optionB": "NEHCTIK",
+              "optionC": "NEHCITK",
+              "optionD": "ITCHEKN",
+              "correctAnswerIndex": 1,
+              "explanation": ""
             }
           ]
         },
         {
           "title": "Direction Sense",
-          "difficulty": "Easy",
-          "description": "Solve direction and distance problems",
+          "difficulty": "Medium",
+          "description": "Practice questions for Direction Sense",
           "time_limit": 15,
           "questions": [
             {
-              "questionText": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
-              "optionA": "(1/3)",
-              "optionB": "(1/8)",
-              "optionC": "(2/8)",
-              "optionD": "(1/16)",
+              "questionText": "A person walks 10m north, then 10m east, then 10m south. How far is he from starting point?",
+              "optionA": "5m",
+              "optionB": "8m",
+              "optionC": "10m",
+              "optionD": "15m",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "Ram walks 20m north, turns right and walks 30m, then turns right again and walks 35m. How far is he from starting point?",
+              "optionA": "25m",
+              "optionB": "30m",
+              "optionC": "35m",
+              "optionD": "40m",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "A man faces north. He turns 45° clockwise, then 180° anticlockwise. Which direction is he facing?",
+              "optionA": "North-East",
+              "optionB": "South-West",
+              "optionC": "South-East",
+              "optionD": "North-West",
               "correctAnswerIndex": 1,
-              "explanation": "Each number is divided by 2. Next is 1/4 divided by 2 = 1/8."
+              "explanation": ""
+            },
+            {
+              "questionText": "Starting from a point, A walks 5m south, then 3m east, then 5m north. In which direction is he from starting point?",
+              "optionA": "East",
+              "optionB": "West",
+              "optionC": "North",
+              "optionD": "South",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "A man is facing west. He turns 45° clockwise, then another 180° clockwise. Which direction is he facing?",
+              "optionA": "North-East",
+              "optionB": "South-East",
+              "optionC": "South-West",
+              "optionD": "North-West",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Ravi walks 6m north, 8m east. What is minimum distance from starting point?",
+              "optionA": "8m",
+              "optionB": "10m",
+              "optionC": "12m",
+              "optionD": "14m",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "A boy walks 30m towards north, turns left and walks 40m, then turns left and walks 30m. How far is he from starting point?",
+              "optionA": "30m",
+              "optionB": "35m",
+              "optionC": "40m",
+              "optionD": "45m",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "Amit walks 4m towards east, turns right and walks 3m, then turns left and walks 5m. How far and in which direction from starting point?",
+              "optionA": "9m East",
+              "optionB": "9m North",
+              "optionC": "9m West",
+              "optionD": "9m South",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "A man faces south. He turns 135° anticlockwise. Which direction is he facing?",
+              "optionA": "North-East",
+              "optionB": "South-East",
+              "optionC": "North-West",
+              "optionD": "South-West",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "Suresh walks 7m east, then 24m north. What is shortest distance from start?",
+              "optionA": "20m",
+              "optionB": "23m",
+              "optionC": "25m",
+              "optionD": "30m",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "title": "Ranking & Order",
+          "difficulty": "Medium",
+          "description": "Practice questions for Ranking & Order",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "In a class of 40 students, Karan ranks 10th from top. What is his rank from bottom?",
+              "optionA": "30",
+              "optionB": "31",
+              "optionC": "32",
+              "optionD": "33",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Amit ranks 16th from top and 49th from bottom in class. How many students are there?",
+              "optionA": "63",
+              "optionB": "64",
+              "optionC": "65",
+              "optionD": "66",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "In a row, Mohan is 12th from left and Sohan is 18th from right. If they interchange, Mohan becomes 20th from left. What is position of Sohan from right?",
+              "optionA": "18",
+              "optionB": "20",
+              "optionC": "22",
+              "optionD": "26",
+              "correctAnswerIndex": 3,
+              "explanation": ""
+            },
+            {
+              "questionText": "In a class, Ravi is 18th from top and 24th from bottom. How many students are in class?",
+              "optionA": "40",
+              "optionB": "41",
+              "optionC": "42",
+              "optionD": "43",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "A is taller than B but shorter than C. D is taller than A but shorter than C. Who is tallest?",
+              "optionA": "A",
+              "optionB": "B",
+              "optionC": "C",
+              "optionD": "D",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "In a queue, A is 10th from front and B is 25th from back. If they interchange, A becomes 15th from front. What is total strength?",
+              "optionA": "35",
+              "optionB": "38",
+              "optionC": "39",
+              "optionD": "40",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "P is heavier than Q but lighter than R. S is heavier than P but lighter than R. Who is heaviest?",
+              "optionA": "P",
+              "optionB": "Q",
+              "optionC": "R",
+              "optionD": "S",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "In a row of 21 girls, when Monika was shifted 4 places to right, she became 12th from left. What was her original position?",
+              "optionA": "6th",
+              "optionB": "7th",
+              "optionC": "8th",
+              "optionD": "9th",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "Among 5 friends, A is taller than B but shorter than C. D is shortest. E is taller than C. Who is third tallest?",
+              "optionA": "A",
+              "optionB": "B",
+              "optionC": "C",
+              "optionD": "E",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "In a row, A is 7th from left and 12th from right. How many people are in the row?",
+              "optionA": "17",
+              "optionB": "18",
+              "optionC": "19",
+              "optionD": "20",
+              "correctAnswerIndex": 1,
+              "explanation": ""
             }
           ]
         },
         {
           "title": "Syllogism",
           "difficulty": "Hard",
-          "description": "Deduce logical conclusions from statements",
+          "description": "Practice questions for Syllogism",
           "time_limit": 15,
           "questions": [
             {
-              "questionText": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
-              "optionA": "(1/3)",
-              "optionB": "(1/8)",
-              "optionC": "(2/8)",
-              "optionD": "(1/16)",
+              "questionText": "All birds are trees. All trees are roads. Therefore:",
+              "optionA": "All birds are roads",
+              "optionB": "All roads are birds",
+              "optionC": "Some roads are birds",
+              "optionD": "No bird is road",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "Some cats are dogs. All dogs are animals. Therefore:",
+              "optionA": "All cats are animals",
+              "optionB": "Some cats are animals",
+              "optionC": "All animals are cats",
+              "optionD": "Cannot determine",
               "correctAnswerIndex": 1,
-              "explanation": "Each number is divided by 2. Next is 1/4 divided by 2 = 1/8."
+              "explanation": ""
+            },
+            {
+              "questionText": "All pens are books. Some books are pencils. Therefore:",
+              "optionA": "All pens are pencils",
+              "optionB": "Some pens are pencils",
+              "optionC": "All pencils are books",
+              "optionD": "Cannot determine",
+              "correctAnswerIndex": 3,
+              "explanation": ""
+            },
+            {
+              "questionText": "No student is teacher. All teachers are educated. Therefore:",
+              "optionA": "No student is educated",
+              "optionB": "Some students are educated",
+              "optionC": "Cannot determine",
+              "optionD": "All educated are teachers",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "All roses are flowers. All flowers are beautiful. Therefore:",
+              "optionA": "All roses are beautiful",
+              "optionB": "All beautiful are roses",
+              "optionC": "Some roses are beautiful",
+              "optionD": "Cannot determine",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "Some doctors are engineers. All engineers are smart. Therefore:",
+              "optionA": "All doctors are smart",
+              "optionB": "Some doctors are smart",
+              "optionC": "All smart are doctors",
+              "optionD": "Cannot determine",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "All apples are fruits. No fruit is vegetable. Therefore:",
+              "optionA": "No apple is vegetable",
+              "optionB": "All vegetables are apples",
+              "optionC": "Some apples are vegetables",
+              "optionD": "Cannot determine",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "Some cars are buses. All buses are vehicles. Therefore:",
+              "optionA": "All cars are vehicles",
+              "optionB": "Some cars are vehicles",
+              "optionC": "All vehicles are cars",
+              "optionD": "Cannot determine",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "All dogs are mammals. All mammals are animals. Therefore:",
+              "optionA": "All dogs are animals",
+              "optionB": "All animals are dogs",
+              "optionC": "Some animals are dogs",
+              "optionD": "Cannot determine",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "No fish is bird. All birds can fly. Therefore:",
+              "optionA": "No fish can fly",
+              "optionB": "All fish can fly",
+              "optionC": "Some fish can fly",
+              "optionD": "Cannot determine",
+              "correctAnswerIndex": 3,
+              "explanation": ""
             }
           ]
         },
         {
-          "title": "Seating Arrangement",
+          "title": "Data Sufficiency",
           "difficulty": "Hard",
-          "description": "Arrange people or objects based on rules",
+          "description": "Practice questions for Data Sufficiency",
           "time_limit": 15,
           "questions": [
             {
-              "questionText": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
-              "optionA": "(1/3)",
-              "optionB": "(1/8)",
-              "optionC": "(2/8)",
-              "optionD": "(1/16)",
-              "correctAnswerIndex": 1,
-              "explanation": "Each number is divided by 2. Next is 1/4 divided by 2 = 1/8."
+              "questionText": "What is John's age? I) John is 25 years younger than his father II) John's sister is 5 years older than John",
+              "optionA": "I alone sufficient",
+              "optionB": "II alone sufficient",
+              "optionC": "Both needed",
+              "optionD": "Neither sufficient",
+              "correctAnswerIndex": 3,
+              "explanation": ""
+            },
+            {
+              "questionText": "What is area of circle? I) Radius is 7 cm II) Circumference is 44 cm",
+              "optionA": "I alone sufficient",
+              "optionB": "II alone sufficient",
+              "optionC": "Either I or II",
+              "optionD": "Both needed",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "Is X > Y? I) X + Y = 10 II) X - Y = 4",
+              "optionA": "I alone sufficient",
+              "optionB": "II alone sufficient",
+              "optionC": "Both needed",
+              "optionD": "Neither sufficient",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "What is profit%? I) CP = Rs.100 II) SP = Rs.120",
+              "optionA": "I alone sufficient",
+              "optionB": "II alone sufficient",
+              "optionC": "Both needed",
+              "optionD": "Neither sufficient",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "How many students passed? I) 60% students passed II) 40 students failed",
+              "optionA": "I alone sufficient",
+              "optionB": "II alone sufficient",
+              "optionC": "Both needed",
+              "optionD": "Neither sufficient",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "What is speed of train? I) Train crosses a pole in 10 seconds II) Length of train is 100m",
+              "optionA": "I alone sufficient",
+              "optionB": "II alone sufficient",
+              "optionC": "Both needed",
+              "optionD": "Neither sufficient",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "Is A brother of B? I) C is father of A II) C has only one son",
+              "optionA": "I alone sufficient",
+              "optionB": "II alone sufficient",
+              "optionC": "Both needed",
+              "optionD": "Neither sufficient",
+              "correctAnswerIndex": 3,
+              "explanation": ""
+            },
+            {
+              "questionText": "What is principal amount? I) SI = Rs.100 II) Rate = 5%, Time = 2 years",
+              "optionA": "I alone sufficient",
+              "optionB": "II alone sufficient",
+              "optionC": "Both needed",
+              "optionD": "Neither sufficient",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "How many people are in the queue? I) Ajay is 15th from front II) Ajay is 20th from back",
+              "optionA": "I alone sufficient",
+              "optionB": "II alone sufficient",
+              "optionC": "Both needed",
+              "optionD": "Neither sufficient",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "What is the code for MOTHER? I) FATHER is coded as GBUIFS II) SISTER is coded as TJTUF",
+              "optionA": "I alone sufficient",
+              "optionB": "II alone sufficient",
+              "optionC": "Either I or II",
+              "optionD": "Both needed",
+              "correctAnswerIndex": 2,
+              "explanation": ""
             }
           ]
         },
         {
-          "title": "Analogies",
-          "difficulty": "Easy",
-          "description": "Find relationships between pairs",
-          "time_limit": 15,
-          "questions": [
-            {
-              "questionText": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
-              "optionA": "(1/3)",
-              "optionB": "(1/8)",
-              "optionC": "(2/8)",
-              "optionD": "(1/16)",
-              "correctAnswerIndex": 1,
-              "explanation": "Each number is divided by 2. Next is 1/4 divided by 2 = 1/8."
-            }
-          ]
-        },
-        {
-          "title": "Series Completion",
+          "title": "Statement & Conclusion",
           "difficulty": "Medium",
-          "description": "Complete number or letter series",
+          "description": "Practice questions for Statement & Conclusion",
           "time_limit": 15,
           "questions": [
             {
-              "questionText": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
-              "optionA": "(1/3)",
-              "optionB": "(1/8)",
-              "optionC": "(2/8)",
-              "optionD": "(1/16)",
+              "questionText": "Statement: All intelligent are hardworking. Conclusion: Some hardworking are intelligent.",
+              "optionA": "Follows",
+              "optionB": "Does not follow",
+              "optionC": "Cannot determine",
+              "optionD": "Partially follows",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "Statement: No animal is plant. Conclusion: All plants are animals.",
+              "optionA": "Follows",
+              "optionB": "Does not follow",
+              "optionC": "Cannot determine",
+              "optionD": "Partially follows",
               "correctAnswerIndex": 1,
-              "explanation": "Each number is divided by 2. Next is 1/4 divided by 2 = 1/8."
+              "explanation": ""
+            },
+            {
+              "questionText": "Statement: Some books are pens. Conclusion: All pens are books.",
+              "optionA": "Follows",
+              "optionB": "Does not follow",
+              "optionC": "Cannot determine",
+              "optionD": "Partially follows",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Statement: All teachers are educated. Some educated are doctors. Conclusion: Some teachers are doctors.",
+              "optionA": "Follows",
+              "optionB": "Does not follow",
+              "optionC": "Cannot determine",
+              "optionD": "Partially follows",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Statement: Quality of education is deteriorating. Conclusion: Educated people are decreasing.",
+              "optionA": "Follows",
+              "optionB": "Does not follow",
+              "optionC": "Cannot determine",
+              "optionD": "Partially follows",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Statement: All roses are flowers. All flowers are beautiful. Conclusion: All roses are beautiful.",
+              "optionA": "Follows",
+              "optionB": "Does not follow",
+              "optionC": "Cannot determine",
+              "optionD": "Partially follows",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "Statement: Some cats are dogs. All dogs bark. Conclusion: Some cats bark.",
+              "optionA": "Follows",
+              "optionB": "Does not follow",
+              "optionC": "Cannot determine",
+              "optionD": "Partially follows",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "Statement: No pen is pencil. Conclusion: No pencil is pen.",
+              "optionA": "Follows",
+              "optionB": "Does not follow",
+              "optionC": "Cannot determine",
+              "optionD": "Partially follows",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "Statement: Reading is good habit. Conclusion: All readers are good people.",
+              "optionA": "Follows",
+              "optionB": "Does not follow",
+              "optionC": "Cannot determine",
+              "optionD": "Partially follows",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Statement: All mangoes are fruits. Conclusion: All fruits are mangoes.",
+              "optionA": "Follows",
+              "optionB": "Does not follow",
+              "optionC": "Cannot determine",
+              "optionD": "Partially follows",
+              "correctAnswerIndex": 1,
+              "explanation": ""
             }
           ]
         },
         {
-          "title": "Statement and Assumption",
-          "difficulty": "Hard",
-          "description": "Identify implicit assumptions",
-          "time_limit": 15,
-          "questions": [
-            {
-              "questionText": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
-              "optionA": "(1/3)",
-              "optionB": "(1/8)",
-              "optionC": "(2/8)",
-              "optionD": "(1/16)",
-              "correctAnswerIndex": 1,
-              "explanation": "Each number is divided by 2. Next is 1/4 divided by 2 = 1/8."
-            }
-          ]
-        },
-        {
-          "title": "Cause and Effect",
+          "title": "Statement & Assumption",
           "difficulty": "Medium",
-          "description": "Determine the relationship between events",
+          "description": "Practice questions for Statement & Assumption",
           "time_limit": 15,
           "questions": [
             {
-              "questionText": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
-              "optionA": "(1/3)",
-              "optionB": "(1/8)",
-              "optionC": "(2/8)",
-              "optionD": "(1/16)",
+              "questionText": "Statement: \"Use our toothpaste for healthy teeth\" - Advertisement. Assumption: People want healthy teeth.",
+              "optionA": "Implicit",
+              "optionB": "Not implicit",
+              "optionC": "Cannot determine",
+              "optionD": "Partially implicit",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "Statement: Please do not use lift while going down. Assumption: Lift is not functioning.",
+              "optionA": "Implicit",
+              "optionB": "Not implicit",
+              "optionC": "Cannot determine",
+              "optionD": "Partially implicit",
               "correctAnswerIndex": 1,
-              "explanation": "Each number is divided by 2. Next is 1/4 divided by 2 = 1/8."
+              "explanation": ""
+            },
+            {
+              "questionText": "Statement: Buy this car - it has power steering. Assumption: People prefer power steering.",
+              "optionA": "Implicit",
+              "optionB": "Not implicit",
+              "optionC": "Cannot determine",
+              "optionD": "Partially implicit",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "Statement: School will remain closed tomorrow. Assumption: Students can read the notice.",
+              "optionA": "Implicit",
+              "optionB": "Not implicit",
+              "optionC": "Cannot determine",
+              "optionD": "Partially implicit",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "Statement: Warning: Smoking is injurious to health. Assumption: People can read.",
+              "optionA": "Implicit",
+              "optionB": "Not implicit",
+              "optionC": "Cannot determine",
+              "optionD": "Partially implicit",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "Statement: Interview on Sunday at 10 AM. Assumption: Candidate will be available on Sunday.",
+              "optionA": "Implicit",
+              "optionB": "Not implicit",
+              "optionC": "Cannot determine",
+              "optionD": "Partially implicit",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "Statement: Study hard to get good marks. Assumption: Studying leads to good marks.",
+              "optionA": "Implicit",
+              "optionB": "Not implicit",
+              "optionC": "Cannot determine",
+              "optionD": "Partially implicit",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "Statement: Join our gym to lose weight. Assumption: People want to lose weight.",
+              "optionA": "Implicit",
+              "optionB": "Not implicit",
+              "optionC": "Cannot determine",
+              "optionD": "Partially implicit",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "Statement: Keep your valuables in locker. Assumption: Lockers are safe.",
+              "optionA": "Implicit",
+              "optionB": "Not implicit",
+              "optionC": "Cannot determine",
+              "optionD": "Partially implicit",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "Statement: Bring your ID proof. Assumption: Everyone has ID proof.",
+              "optionA": "Implicit",
+              "optionB": "Not implicit",
+              "optionC": "Cannot determine",
+              "optionD": "Partially implicit",
+              "correctAnswerIndex": 0,
+              "explanation": ""
             }
           ]
         },
         {
-          "title": "Logical Deduction",
-          "difficulty": "Hard",
-          "description": "Derive conclusions from premises",
-          "time_limit": 15,
-          "questions": [
-            {
-              "questionText": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
-              "optionA": "(1/3)",
-              "optionB": "(1/8)",
-              "optionC": "(2/8)",
-              "optionD": "(1/16)",
-              "correctAnswerIndex": 1,
-              "explanation": "Each number is divided by 2. Next is 1/4 divided by 2 = 1/8."
-            }
-          ]
-        },
-        {
-          "title": "Venn Diagrams",
-          "difficulty": "Easy",
-          "description": "Represent sets and relationships visually",
-          "time_limit": 15,
-          "questions": [
-            {
-              "questionText": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
-              "optionA": "(1/3)",
-              "optionB": "(1/8)",
-              "optionC": "(2/8)",
-              "optionD": "(1/16)",
-              "correctAnswerIndex": 1,
-              "explanation": "Each number is divided by 2. Next is 1/4 divided by 2 = 1/8."
-            }
-          ]
-        },
-        {
-          "title": "Cube and Dice",
+          "title": "Cause & Effect",
           "difficulty": "Medium",
-          "description": "Spatial reasoning with cubes",
+          "description": "Practice questions for Cause & Effect",
           "time_limit": 15,
           "questions": [
             {
-              "questionText": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
-              "optionA": "(1/3)",
-              "optionB": "(1/8)",
-              "optionC": "(2/8)",
-              "optionD": "(1/16)",
+              "questionText": "Event I: Heavy rainfall. Event II: Flood in city. What is relation?",
+              "optionA": "I is cause, II is effect",
+              "optionB": "II is cause, I is effect",
+              "optionC": "Both independent",
+              "optionD": "Both effects of common cause",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "Event I: Company announced bonus. Event II: Employees are happy. What is relation?",
+              "optionA": "I is cause, II is effect",
+              "optionB": "II is cause, I is effect",
+              "optionC": "Both independent",
+              "optionD": "Both effects of common cause",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "Event I: Roads are wet. Event II: It rained last night. What is relation?",
+              "optionA": "I is cause, II is effect",
+              "optionB": "II is cause, I is effect",
+              "optionC": "Both independent",
+              "optionD": "Both effects of common cause",
               "correctAnswerIndex": 1,
-              "explanation": "Each number is divided by 2. Next is 1/4 divided by 2 = 1/8."
+              "explanation": ""
+            },
+            {
+              "questionText": "Event I: Price of petrol increased. Event II: People using public transport more. What is relation?",
+              "optionA": "I is cause, II is effect",
+              "optionB": "II is cause, I is effect",
+              "optionC": "Both independent",
+              "optionD": "Both effects of common cause",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "Event I: Government banned plastic bags. Event II: Use of cloth bags increased. What is relation?",
+              "optionA": "I is cause, II is effect",
+              "optionB": "II is cause, I is effect",
+              "optionC": "Both independent",
+              "optionD": "Both effects of common cause",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "Event I: Student studied hard. Event II: Student got good marks. What is relation?",
+              "optionA": "I is cause, II is effect",
+              "optionB": "II is cause, I is effect",
+              "optionC": "Both independent",
+              "optionD": "Both effects of common cause",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "Event I: Power cut in area. Event II: Transformer failure. What is relation?",
+              "optionA": "I is cause, II is effect",
+              "optionB": "II is cause, I is effect",
+              "optionC": "Both independent",
+              "optionD": "Both effects of common cause",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Event I: Traffic jam on highway. Event II: Accident occurred. What is relation?",
+              "optionA": "I is cause, II is effect",
+              "optionB": "II is cause, I is effect",
+              "optionC": "Both independent",
+              "optionD": "Both effects of common cause",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Event I: Temperature dropped suddenly. Event II: People wearing warm clothes. What is relation?",
+              "optionA": "I is cause, II is effect",
+              "optionB": "II is cause, I is effect",
+              "optionC": "Both independent",
+              "optionD": "Both effects of common cause",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "Event I: Sale announced in mall. Event II: Large crowd in mall. What is relation?",
+              "optionA": "I is cause, II is effect",
+              "optionB": "II is cause, I is effect",
+              "optionC": "Both independent",
+              "optionD": "Both effects of common cause",
+              "correctAnswerIndex": 0,
+              "explanation": ""
             }
           ]
         },
         {
-          "title": "Clock and Calendar",
+          "title": "Puzzle Test",
           "difficulty": "Medium",
-          "description": "Solve time and calendar problems",
+          "description": "Practice questions for Puzzle Test",
           "time_limit": 15,
           "questions": [
             {
-              "questionText": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
-              "optionA": "(1/3)",
-              "optionB": "(1/8)",
-              "optionC": "(2/8)",
-              "optionD": "(1/16)",
+              "questionText": "Five friends P, Q, R, S, T are sitting in a row. P and Q are neighbors. T is not at ends. S is left of Q. Who is in middle?",
+              "optionA": "P",
+              "optionB": "Q",
+              "optionC": "R",
+              "optionD": "T",
               "correctAnswerIndex": 1,
-              "explanation": "Each number is divided by 2. Next is 1/4 divided by 2 = 1/8."
+              "explanation": ""
+            },
+            {
+              "questionText": "A, B, C, D, E are five students. A is taller than B but shorter than C. D is tallest. E is shorter than B. Who is shortest?",
+              "optionA": "A",
+              "optionB": "B",
+              "optionC": "C",
+              "optionD": "E",
+              "correctAnswerIndex": 3,
+              "explanation": ""
+            },
+            {
+              "questionText": "Five persons A, B, C, D, E are sitting in circle facing center. A is 2nd left of E. C is between E and D. Who is immediate right of A?",
+              "optionA": "B",
+              "optionB": "C",
+              "optionC": "D",
+              "optionD": "E",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "P, Q, R, S, T are of different ages. P is older than Q. R is younger than S but older than T. S is younger than Q. Who is youngest?",
+              "optionA": "P",
+              "optionB": "Q",
+              "optionC": "R",
+              "optionD": "T",
+              "correctAnswerIndex": 3,
+              "explanation": ""
+            },
+            {
+              "questionText": "Four friends A, B, C, D live on different floors. A lives above B. C lives below D. B lives above D. Who lives on top floor?",
+              "optionA": "A",
+              "optionB": "B",
+              "optionC": "C",
+              "optionD": "D",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "Five books P, Q, R, S, T are kept one above other. R is above S but below P. Q is above T but below S. Which book is at bottom?",
+              "optionA": "P",
+              "optionB": "Q",
+              "optionC": "S",
+              "optionD": "T",
+              "correctAnswerIndex": 3,
+              "explanation": ""
+            },
+            {
+              "questionText": "A, B, C, D, E are sitting in row facing north. C is left of D. B is right of E. A is between E and C. Who is at extreme right?",
+              "optionA": "A",
+              "optionB": "B",
+              "optionC": "C",
+              "optionD": "D",
+              "correctAnswerIndex": 3,
+              "explanation": ""
+            },
+            {
+              "questionText": "Five cities P, Q, R, S, T are at different distances from city X. P is farther than Q. R is nearer than S. T is farther than P. Which is nearest?",
+              "optionA": "P",
+              "optionB": "Q",
+              "optionC": "R",
+              "optionD": "S",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "P, Q, R, S are four friends. P is richer than Q. S is poorer than R but richer than Q. Who is poorest?",
+              "optionA": "P",
+              "optionB": "Q",
+              "optionC": "R",
+              "optionD": "S",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Five persons are standing in queue. A is between B and C. D is ahead of E. B is ahead of D. Who is last in queue?",
+              "optionA": "A",
+              "optionB": "C",
+              "optionC": "D",
+              "optionD": "E",
+              "correctAnswerIndex": 3,
+              "explanation": ""
             }
           ]
         }
@@ -716,423 +2660,1276 @@
       "name": "Technical",
       "quizzes": [
         {
-          "title": "JavaScript Basics",
-          "difficulty": "Easy",
-          "description": "Test your JavaScript fundamentals",
+          "title": "C Programming",
+          "difficulty": "Medium",
+          "description": "Practice questions for C Programming",
           "time_limit": 15,
           "questions": [
             {
-              "questionText": "What does HTML stand for?",
-              "optionA": "Hyper Text Preprocessor",
-              "optionB": "Hyper Text Markup Language",
-              "optionC": "Hyper Text Multiple Language",
-              "optionD": "Hyper Tool Multi Language",
+              "questionText": "Which data type is used to store decimal numbers in C?",
+              "optionA": "int",
+              "optionB": "float",
+              "optionC": "char",
+              "optionD": "void",
               "correctAnswerIndex": 1,
-              "explanation": "HTML stands for Hyper Text Markup Language."
+              "explanation": ""
             },
             {
-              "questionText": "Which language is used for styling web pages?",
-              "optionA": "HTML",
-              "optionB": "JQuery",
-              "optionC": "CSS",
-              "optionD": "XML",
+              "questionText": "What is the output of printf(\"%d\", 5/2) in C?",
+              "optionA": "2",
+              "optionB": "2.5",
+              "optionC": "3",
+              "optionD": "Error",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "Which symbol is used for single line comment in C?",
+              "optionA": "//",
+              "optionB": "/*",
+              "optionC": "#",
+              "optionD": "--",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "What does malloc() function do?",
+              "optionA": "Frees memory",
+              "optionB": "Allocates memory",
+              "optionC": "Copies memory",
+              "optionD": "Compares memory",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Size of int data type is typically:",
+              "optionA": "1 byte",
+              "optionB": "2 bytes",
+              "optionC": "4 bytes",
+              "optionD": "8 bytes",
               "correctAnswerIndex": 2,
-              "explanation": "CSS (Cascading Style Sheets) is used for styling."
+              "explanation": ""
             },
             {
-              "questionText": "Which is not a Java keyword?",
+              "questionText": "What is the range of char data type in C?",
+              "optionA": "-128 to 127",
+              "optionB": "0 to 255",
+              "optionC": "-256 to 255",
+              "optionD": "0 to 127",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "Which header file is required for printf()?",
+              "optionA": "stdlib.h",
+              "optionB": "stdio.h",
+              "optionC": "string.h",
+              "optionD": "math.h",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "What is the correct syntax for main function?",
+              "optionA": "void main()",
+              "optionB": "int main()",
+              "optionC": "main()",
+              "optionD": "function main()",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Which operator is used to access value at address?",
+              "optionA": "&",
+              "optionB": "*",
+              "optionC": "->",
+              "optionD": ".",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "What does NULL pointer point to?",
+              "optionA": "First memory location",
+              "optionB": "Last memory location",
+              "optionC": "No memory location",
+              "optionD": "Random location",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "title": "C++ Programming",
+          "difficulty": "Medium",
+          "description": "Practice questions for C++ Programming",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "Which is not a feature of OOP?",
+              "optionA": "Encapsulation",
+              "optionB": "Inheritance",
+              "optionC": "Compilation",
+              "optionD": "Polymorphism",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "Which keyword is used to define class in C++?",
+              "optionA": "class",
+              "optionB": "struct",
+              "optionC": "define",
+              "optionD": "object",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "What is default access specifier for class members?",
+              "optionA": "public",
+              "optionB": "private",
+              "optionC": "protected",
+              "optionD": "friend",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Which operator cannot be overloaded?",
+              "optionA": "+",
+              "optionB": "-",
+              "optionC": "::",
+              "optionD": "==",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "What is destructor?",
+              "optionA": "Creates object",
+              "optionB": "Destroys object",
+              "optionC": "Copies object",
+              "optionD": "Compares object",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Which is correct syntax for constructor?",
+              "optionA": "ClassName()",
+              "optionB": "~ClassName()",
+              "optionC": "void ClassName()",
+              "optionD": "class ClassName()",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "What is virtual function?",
+              "optionA": "Runtime polymorphism",
+              "optionB": "Compile time polymorphism",
+              "optionC": "Function overloading",
+              "optionD": "Operator overloading",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "Which header file for cin and cout?",
+              "optionA": "stdio.h",
+              "optionB": "iostream",
+              "optionC": "conio.h",
+              "optionD": "stdlib.h",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "What is friend function?",
+              "optionA": "Member of class",
+              "optionB": "Not member but can access private",
+              "optionC": "Static function",
+              "optionD": "Virtual function",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Which is correct for inheritance syntax?",
+              "optionA": "class B : A",
+              "optionB": "class B extends A",
+              "optionC": "class B inherits A",
+              "optionD": "class B(A)",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "title": "Java Programming",
+          "difficulty": "Medium",
+          "description": "Practice questions for Java Programming",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "Which keyword is used to inherit a class in Java?",
+              "optionA": "extends",
+              "optionB": "implements",
+              "optionC": "inherits",
+              "optionD": "super",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "Java is a _____ language",
+              "optionA": "Procedural",
+              "optionB": "Object-Oriented",
+              "optionC": "Functional",
+              "optionD": "Scripting",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Which of these is not a Java feature?",
+              "optionA": "Platform Independent",
+              "optionB": "Object-Oriented",
+              "optionC": "Use of pointers",
+              "optionD": "Multithreaded",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "Default value of boolean variable in Java is:",
+              "optionA": "true",
+              "optionB": "false",
+              "optionC": "0",
+              "optionD": "null",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Which package is automatically imported in Java?",
+              "optionA": "java.util",
+              "optionB": "java.lang",
+              "optionC": "java.io",
+              "optionD": "java.net",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Which method is called when an object is created?",
+              "optionA": "main()",
+              "optionB": "constructor",
+              "optionC": "finalize()",
+              "optionD": "static",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "What is the extension of Java source code file?",
+              "optionA": ".class",
+              "optionB": ".java",
+              "optionC": ".jar",
+              "optionD": ".exe",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Which keyword is used to prevent method overriding?",
               "optionA": "static",
-              "optionB": "Boolean",
-              "optionC": "void",
+              "optionB": "final",
+              "optionC": "abstract",
               "optionD": "private",
               "correctAnswerIndex": 1,
-              "explanation": "Boolean is a wrapper class, 'boolean' (lowercase) is the keyword."
-            },
-            {
-              "questionText": "Which of the following is a database management system?",
-              "optionA": "MySQL",
-              "optionB": "Oracle",
-              "optionC": "Both A and B",
-              "optionD": "None",
-              "correctAnswerIndex": 2,
-              "explanation": "Both MySQL and Oracle are popular DBMS."
-            },
-            {
-              "questionText": "What is the extension of a Java class file?",
-              "optionA": ".js",
-              "optionB": ".class",
-              "optionC": ".txt",
-              "optionD": ".java",
-              "correctAnswerIndex": 1,
-              "explanation": "Compiled Java files have the .class extension. Source files are .java."
-            },
-            {
-              "questionText": "Which company developed Android?",
-              "optionA": "Apple",
-              "optionB": "Google",
-              "optionC": "Microsoft",
-              "optionD": "Nokia",
-              "correctAnswerIndex": 1,
-              "explanation": "Android was developed by Android Inc., which Google bought in 2005."
-            },
-            {
-              "questionText": "What is the primary key in a database table?",
-              "optionA": "Unique ID",
-              "optionB": "First Column",
-              "optionC": "Last Column",
-              "optionD": "None",
-              "correctAnswerIndex": 0,
-              "explanation": "A primary key uniquely identifies each record in a table."
-            },
-            {
-              "questionText": "Which loop is guaranteed to execute at least once?",
-              "optionA": "for",
-              "optionB": "while",
-              "optionC": "do-while",
-              "optionD": "None",
-              "correctAnswerIndex": 2,
-              "explanation": "A do-while loop executes the body before checking the condition, ensuring at least one run."
-            },
-            {
-              "questionText": "Arrays in Java are:",
-              "optionA": "Object references",
-              "optionB": "Primitive data type",
-              "optionC": "Objects",
-              "optionD": "None",
-              "correctAnswerIndex": 2,
-              "explanation": "In Java, arrays are objects."
+              "explanation": ""
             },
             {
               "questionText": "What is the size of int in Java?",
-              "optionA": "16 bit",
-              "optionB": "32 bit",
-              "optionC": "64 bit",
-              "optionD": "8 bit",
+              "optionA": "2 bytes",
+              "optionB": "4 bytes",
+              "optionC": "8 bytes",
+              "optionD": "Platform dependent",
               "correctAnswerIndex": 1,
-              "explanation": "Primitive int in Java is always 32-bit signed two's complement integer."
+              "explanation": ""
+            },
+            {
+              "questionText": "Which exception is thrown when array index is out of bounds?",
+              "optionA": "NullPointerException",
+              "optionB": "ArrayIndexOutOfBoundsException",
+              "optionC": "NumberFormatException",
+              "optionD": "ArithmeticException",
+              "correctAnswerIndex": 1,
+              "explanation": ""
             }
           ]
         },
         {
-          "title": "Python Data Types",
+          "title": "Python Programming",
           "difficulty": "Medium",
-          "description": "Core Python concepts",
+          "description": "Practice questions for Python Programming",
           "time_limit": 15,
           "questions": [
             {
-              "questionText": "What does HTML stand for?",
-              "optionA": "Hyper Text Preprocessor",
-              "optionB": "Hyper Text Markup Language",
-              "optionC": "Hyper Text Multiple Language",
-              "optionD": "Hyper Tool Multi Language",
+              "questionText": "Which keyword is used to define a function in Python?",
+              "optionA": "function",
+              "optionB": "def",
+              "optionC": "fun",
+              "optionD": "define",
               "correctAnswerIndex": 1,
-              "explanation": "HTML stands for Hyper Text Markup Language."
+              "explanation": ""
+            },
+            {
+              "questionText": "What is the output of print(2 ** 3)?",
+              "optionA": "5",
+              "optionB": "6",
+              "optionC": "8",
+              "optionD": "9",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "Which data structure is mutable in Python?",
+              "optionA": "Tuple",
+              "optionB": "String",
+              "optionC": "List",
+              "optionD": "Integer",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "How do you start a comment in Python?",
+              "optionA": "//",
+              "optionB": "/*",
+              "optionC": "#",
+              "optionD": "--",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "Which function is used to get length of list?",
+              "optionA": "length()",
+              "optionB": "len()",
+              "optionC": "size()",
+              "optionD": "count()",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "What is the correct file extension for Python files?",
+              "optionA": ".pt",
+              "optionB": ".python",
+              "optionC": ".py",
+              "optionD": ".p",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "Which keyword is used for loop in Python?",
+              "optionA": "loop",
+              "optionB": "foreach",
+              "optionC": "for",
+              "optionD": "repeat",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "What does // operator do in Python?",
+              "optionA": "Division",
+              "optionB": "Floor Division",
+              "optionC": "Modulo",
+              "optionD": "Exponent",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Which method is used to add element at end of list?",
+              "optionA": "add()",
+              "optionB": "append()",
+              "optionC": "insert()",
+              "optionD": "push()",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "What is the output of print(type([]))?",
+              "optionA": "<class list>",
+              "optionB": "<class dict>",
+              "optionC": "<class tuple>",
+              "optionD": "<class set>",
+              "correctAnswerIndex": 0,
+              "explanation": ""
             }
           ]
         },
         {
-          "title": "SQL Queries",
-          "difficulty": "Hard",
-          "description": "Advanced database querying",
-          "time_limit": 15,
-          "questions": [
-            {
-              "questionText": "What does HTML stand for?",
-              "optionA": "Hyper Text Preprocessor",
-              "optionB": "Hyper Text Markup Language",
-              "optionC": "Hyper Text Multiple Language",
-              "optionD": "Hyper Tool Multi Language",
-              "correctAnswerIndex": 1,
-              "explanation": "HTML stands for Hyper Text Markup Language."
-            }
-          ]
-        },
-        {
-          "title": "Java Core",
+          "title": "JavaScript",
           "difficulty": "Medium",
-          "description": "Fundamental concepts of Java",
+          "description": "Practice questions for JavaScript",
           "time_limit": 15,
           "questions": [
             {
-              "questionText": "What does HTML stand for?",
-              "optionA": "Hyper Text Preprocessor",
-              "optionB": "Hyper Text Markup Language",
-              "optionC": "Hyper Text Multiple Language",
-              "optionD": "Hyper Tool Multi Language",
+              "questionText": "Which company developed JavaScript?",
+              "optionA": "Microsoft",
+              "optionB": "Netscape",
+              "optionC": "Oracle",
+              "optionD": "IBM",
               "correctAnswerIndex": 1,
-              "explanation": "HTML stands for Hyper Text Markup Language."
+              "explanation": ""
+            },
+            {
+              "questionText": "Which symbol is used for comments in JavaScript?",
+              "optionA": "//",
+              "optionB": "#",
+              "optionC": "/*",
+              "optionD": "--",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "Which method is used to parse a string to integer?",
+              "optionA": "parseInt()",
+              "optionB": "parseFloat()",
+              "optionC": "toInt()",
+              "optionD": "Number()",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "What is the correct syntax for referring to external script?",
+              "optionA": "<script href=\"xxx.js\">",
+              "optionB": "<script name=\"xxx.js\">",
+              "optionC": "<script src=\"xxx.js\">",
+              "optionD": "<script file=\"xxx.js\">",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "How do you create a function in JavaScript?",
+              "optionA": "function myFunction()",
+              "optionB": "function:myFunction()",
+              "optionC": "function = myFunction()",
+              "optionD": "def myFunction()",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "How do you write \"Hello World\" in an alert box?",
+              "optionA": "alertBox(\"Hello World\")",
+              "optionB": "msgBox(\"Hello World\")",
+              "optionC": "alert(\"Hello World\")",
+              "optionD": "msg(\"Hello World\")",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "Which operator is used to assign a value to a variable?",
+              "optionA": "×",
+              "optionB": "*",
+              "optionC": "=",
+              "optionD": "-",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "What will typeof null return?",
+              "optionA": "null",
+              "optionB": "undefined",
+              "optionC": "object",
+              "optionD": "number",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "Which method is used to convert JSON string to JavaScript object?",
+              "optionA": "JSON.parse()",
+              "optionB": "JSON.stringify()",
+              "optionC": "JSON.toObject()",
+              "optionD": "JSON.convert()",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "What is the correct way to write an array in JavaScript?",
+              "optionA": "var colors = \"red\", \"green\", \"blue\"",
+              "optionB": "var colors = [\"red\", \"green\", \"blue\"]",
+              "optionC": "var colors = (1:\"red\", 2:\"green\", 3:\"blue\")",
+              "optionD": "var colors = 1 = (\"red\"), 2 = (\"green\")",
+              "correctAnswerIndex": 1,
+              "explanation": ""
             }
           ]
         },
         {
-          "title": "C++ Pointers",
-          "difficulty": "Hard",
-          "description": "Mastering memory management in C++",
+          "title": "HTML",
+          "difficulty": "Easy",
+          "description": "Practice questions for HTML",
           "time_limit": 15,
           "questions": [
             {
               "questionText": "What does HTML stand for?",
-              "optionA": "Hyper Text Preprocessor",
-              "optionB": "Hyper Text Markup Language",
-              "optionC": "Hyper Text Multiple Language",
-              "optionD": "Hyper Tool Multi Language",
+              "optionA": "Hyper Text Markup Language",
+              "optionB": "High Text Markup Language",
+              "optionC": "Hyper Tabular Markup Language",
+              "optionD": "None of these",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "Which HTML tag is used to define an internal style sheet?",
+              "optionA": "<css>",
+              "optionB": "<script>",
+              "optionC": "<style>",
+              "optionD": "<link>",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "Which tag is used for creating a hyperlink?",
+              "optionA": "<link>",
+              "optionB": "<a>",
+              "optionC": "<href>",
+              "optionD": "<hyperlink>",
               "correctAnswerIndex": 1,
-              "explanation": "HTML stands for Hyper Text Markup Language."
+              "explanation": ""
+            },
+            {
+              "questionText": "Which attribute is used to provide a unique name to an element?",
+              "optionA": "class",
+              "optionB": "id",
+              "optionC": "name",
+              "optionD": "title",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Which tag is used to insert an image?",
+              "optionA": "<image>",
+              "optionB": "<img>",
+              "optionC": "<picture>",
+              "optionD": "<src>",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "What is the correct HTML for creating a checkbox?",
+              "optionA": "<checkbox>",
+              "optionB": "<input type=\"check\">",
+              "optionC": "<input type=\"checkbox\">",
+              "optionD": "<check>",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "Which tag is used to define an unordered list?",
+              "optionA": "<ol>",
+              "optionB": "<ul>",
+              "optionC": "<list>",
+              "optionD": "<dl>",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Which attribute specifies an alternate text for an image?",
+              "optionA": "title",
+              "optionB": "alt",
+              "optionC": "src",
+              "optionD": "longdesc",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Which tag is used to create a table?",
+              "optionA": "<tab>",
+              "optionB": "<table>",
+              "optionC": "<tr>",
+              "optionD": "<td>",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "What is the correct HTML for making a text bold?",
+              "optionA": "<bold>",
+              "optionB": "<b>",
+              "optionC": "<strong>",
+              "optionD": "Both <b> and <strong>",
+              "correctAnswerIndex": 3,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "title": "CSS",
+          "difficulty": "Medium",
+          "description": "Practice questions for CSS",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "What does CSS stand for?",
+              "optionA": "Cascading Style Sheets",
+              "optionB": "Creative Style Sheets",
+              "optionC": "Computer Style Sheets",
+              "optionD": "Colorful Style Sheets",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "Which property is used to change the background color?",
+              "optionA": "bgcolor",
+              "optionB": "color",
+              "optionC": "background-color",
+              "optionD": "bg-color",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "Which property is used to change the font of an element?",
+              "optionA": "font-family",
+              "optionB": "font-style",
+              "optionC": "font-weight",
+              "optionD": "text-font",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "How do you select an element with id \"demo\"?",
+              "optionA": ".demo",
+              "optionB": "#demo",
+              "optionC": "demo",
+              "optionD": "*demo",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "How do you select elements with class name \"test\"?",
+              "optionA": "#test",
+              "optionB": ".test",
+              "optionC": "test",
+              "optionD": "*test",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Which property is used to change the text color?",
+              "optionA": "text-color",
+              "optionB": "fgcolor",
+              "optionC": "color",
+              "optionD": "font-color",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "How do you add a background color for all <h1> elements?",
+              "optionA": "h1 {background-color:#FFFFFF}",
+              "optionB": "h1.all {background-color:#FFFFFF}",
+              "optionC": "all.h1 {background-color:#FFFFFF}",
+              "optionD": "h1:all {background-color:#FFFFFF}",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "Which property is used to change the left margin of an element?",
+              "optionA": "margin-left",
+              "optionB": "padding-left",
+              "optionC": "indent",
+              "optionD": "text-indent",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "How do you make text bold in CSS?",
+              "optionA": "font-weight:bold",
+              "optionB": "font:bold",
+              "optionC": "style:bold",
+              "optionD": "text:bold",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "Which property is used to change the size of text?",
+              "optionA": "text-size",
+              "optionB": "font-size",
+              "optionC": "text-style",
+              "optionD": "font-style",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "title": "SQL/DBMS",
+          "difficulty": "Medium",
+          "description": "Practice questions for SQL/DBMS",
+          "time_limit": 15,
+          "questions": [
+            {
+              "questionText": "SQL stands for:",
+              "optionA": "Structured Query Language",
+              "optionB": "Simple Query Language",
+              "optionC": "Standard Query Language",
+              "optionD": "System Query Language",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "Which command is used to retrieve data from database?",
+              "optionA": "GET",
+              "optionB": "SELECT",
+              "optionC": "RETRIEVE",
+              "optionD": "FETCH",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Primary key can contain:",
+              "optionA": "Duplicate values",
+              "optionB": "NULL values",
+              "optionC": "Unique values only",
+              "optionD": "Any values",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "Which clause is used to filter records in SQL?",
+              "optionA": "FILTER",
+              "optionB": "WHERE",
+              "optionC": "HAVING",
+              "optionD": "IF",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "What does DDL stand for?",
+              "optionA": "Data Definition Language",
+              "optionB": "Data Delete Language",
+              "optionC": "Data Duplicate Language",
+              "optionD": "Database Definition Language",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "Which command is used to delete all records from table?",
+              "optionA": "DELETE",
+              "optionB": "TRUNCATE",
+              "optionC": "DROP",
+              "optionD": "REMOVE",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Which key uniquely identifies a record in another table?",
+              "optionA": "Primary Key",
+              "optionB": "Foreign Key",
+              "optionC": "Candidate Key",
+              "optionD": "Super Key",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "What is normalization?",
+              "optionA": "Data backup",
+              "optionB": "Removing redundancy",
+              "optionC": "Creating indexes",
+              "optionD": "Data encryption",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Which command is used to add new column to table?",
+              "optionA": "ADD COLUMN",
+              "optionB": "ALTER TABLE",
+              "optionC": "MODIFY TABLE",
+              "optionD": "UPDATE TABLE",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "ACID properties are related to:",
+              "optionA": "Database Security",
+              "optionB": "Transactions",
+              "optionC": "Normalization",
+              "optionD": "Indexing",
+              "correctAnswerIndex": 1,
+              "explanation": ""
             }
           ]
         },
         {
           "title": "Data Structures",
           "difficulty": "Hard",
-          "description": "Arrays, Linked Lists, Trees and more",
+          "description": "Practice questions for Data Structures",
           "time_limit": 15,
           "questions": [
             {
-              "questionText": "What does HTML stand for?",
-              "optionA": "Hyper Text Preprocessor",
-              "optionB": "Hyper Text Markup Language",
-              "optionC": "Hyper Text Multiple Language",
-              "optionD": "Hyper Tool Multi Language",
+              "questionText": "LIFO principle is used in:",
+              "optionA": "Queue",
+              "optionB": "Stack",
+              "optionC": "Tree",
+              "optionD": "Graph",
               "correctAnswerIndex": 1,
-              "explanation": "HTML stands for Hyper Text Markup Language."
+              "explanation": ""
+            },
+            {
+              "questionText": "FIFO principle is used in:",
+              "optionA": "Queue",
+              "optionB": "Stack",
+              "optionC": "Tree",
+              "optionD": "Linked List",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "Time complexity of binary search is:",
+              "optionA": "O(n)",
+              "optionB": "O(log n)",
+              "optionC": "O(n^2)",
+              "optionD": "O(1)",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Which data structure uses nodes and pointers?",
+              "optionA": "Array",
+              "optionB": "Linked List",
+              "optionC": "Stack",
+              "optionD": "Queue",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "What is the worst case time complexity of Quick Sort?",
+              "optionA": "O(n log n)",
+              "optionB": "O(n^2)",
+              "optionC": "O(n)",
+              "optionD": "O(log n)",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Which traversal visits root node first?",
+              "optionA": "Inorder",
+              "optionB": "Preorder",
+              "optionC": "Postorder",
+              "optionD": "Level order",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "What is the space complexity of recursive function with depth n?",
+              "optionA": "O(1)",
+              "optionB": "O(n)",
+              "optionC": "O(log n)",
+              "optionD": "O(n^2)",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Hash table uses which technique to handle collisions?",
+              "optionA": "Sorting",
+              "optionB": "Chaining",
+              "optionC": "Indexing",
+              "optionD": "Merging",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Which data structure is best for implementing priority queue?",
+              "optionA": "Array",
+              "optionB": "Linked List",
+              "optionC": "Heap",
+              "optionD": "Stack",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "What is the time complexity to access element in array by index?",
+              "optionA": "O(1)",
+              "optionB": "O(n)",
+              "optionC": "O(log n)",
+              "optionD": "O(n^2)",
+              "correctAnswerIndex": 0,
+              "explanation": ""
             }
           ]
         },
         {
-          "title": "Algorithms",
-          "difficulty": "Hard",
-          "description": "Sorting, Searching and Optimization",
-          "time_limit": 15,
-          "questions": [
-            {
-              "questionText": "What does HTML stand for?",
-              "optionA": "Hyper Text Preprocessor",
-              "optionB": "Hyper Text Markup Language",
-              "optionC": "Hyper Text Multiple Language",
-              "optionD": "Hyper Tool Multi Language",
-              "correctAnswerIndex": 1,
-              "explanation": "HTML stands for Hyper Text Markup Language."
-            }
-          ]
-        },
-        {
-          "title": "Object-Oriented Programming",
+          "title": "Operating System",
           "difficulty": "Medium",
-          "description": "Classes, Objects, Inheritance, Polymorphism",
+          "description": "Practice questions for Operating System",
           "time_limit": 15,
           "questions": [
             {
-              "questionText": "What does HTML stand for?",
-              "optionA": "Hyper Text Preprocessor",
-              "optionB": "Hyper Text Markup Language",
-              "optionC": "Hyper Text Multiple Language",
-              "optionD": "Hyper Tool Multi Language",
-              "correctAnswerIndex": 1,
-              "explanation": "HTML stands for Hyper Text Markup Language."
-            }
-          ]
-        },
-        {
-          "title": "Operating Systems",
-          "difficulty": "Medium",
-          "description": "Processes, Threads and Memory Management",
-          "time_limit": 15,
-          "questions": [
+              "questionText": "Which scheduling algorithm can cause starvation?",
+              "optionA": "FCFS",
+              "optionB": "Round Robin",
+              "optionC": "Priority",
+              "optionD": "SJF",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
             {
-              "questionText": "What does HTML stand for?",
-              "optionA": "Hyper Text Preprocessor",
-              "optionB": "Hyper Text Markup Language",
-              "optionC": "Hyper Text Multiple Language",
-              "optionD": "Hyper Tool Multi Language",
+              "questionText": "Full form of OS is:",
+              "optionA": "Open Source",
+              "optionB": "Operating System",
+              "optionC": "Optical System",
+              "optionD": "Online System",
               "correctAnswerIndex": 1,
-              "explanation": "HTML stands for Hyper Text Markup Language."
+              "explanation": ""
+            },
+            {
+              "questionText": "A process that is waiting for CPU is in which state?",
+              "optionA": "Running",
+              "optionB": "Ready",
+              "optionC": "Blocked",
+              "optionD": "Terminated",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Which memory management technique divides memory into fixed-size blocks?",
+              "optionA": "Paging",
+              "optionB": "Segmentation",
+              "optionC": "Swapping",
+              "optionD": "Partitioning",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "What is thrashing in OS?",
+              "optionA": "CPU utilization",
+              "optionB": "Excessive paging",
+              "optionC": "Memory leak",
+              "optionD": "Disk formatting",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Deadlock occurs when:",
+              "optionA": "Process completes",
+              "optionB": "Circular wait exists",
+              "optionC": "CPU is idle",
+              "optionD": "Memory is full",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Which algorithm is used for page replacement?",
+              "optionA": "FCFS",
+              "optionB": "LRU",
+              "optionC": "Priority",
+              "optionD": "Round Robin",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "What is the purpose of semaphore?",
+              "optionA": "Memory allocation",
+              "optionB": "Process synchronization",
+              "optionC": "File management",
+              "optionD": "CPU scheduling",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Critical section problem is related to:",
+              "optionA": "Deadlock",
+              "optionB": "Synchronization",
+              "optionC": "Scheduling",
+              "optionD": "Memory",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Which is not a type of operating system?",
+              "optionA": "Batch",
+              "optionB": "Real-time",
+              "optionC": "Distributed",
+              "optionD": "Compiled",
+              "correctAnswerIndex": 3,
+              "explanation": ""
             }
           ]
         },
         {
           "title": "Computer Networks",
           "difficulty": "Medium",
-          "description": "OSI Model, TCP/IP and Protocols",
+          "description": "Practice questions for Computer Networks",
           "time_limit": 15,
           "questions": [
             {
-              "questionText": "What does HTML stand for?",
-              "optionA": "Hyper Text Preprocessor",
-              "optionB": "Hyper Text Markup Language",
-              "optionC": "Hyper Text Multiple Language",
-              "optionD": "Hyper Tool Multi Language",
-              "correctAnswerIndex": 1,
-              "explanation": "HTML stands for Hyper Text Markup Language."
-            }
-          ]
-        },
-        {
-          "title": "DBMS Concepts",
-          "difficulty": "Medium",
-          "description": "Normalization, Transactions and Acid Properties",
-          "time_limit": 15,
-          "questions": [
+              "questionText": "What does IP stand for?",
+              "optionA": "Internet Protocol",
+              "optionB": "Internal Protocol",
+              "optionC": "Internet Process",
+              "optionD": "Internal Process",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
             {
-              "questionText": "What does HTML stand for?",
-              "optionA": "Hyper Text Preprocessor",
-              "optionB": "Hyper Text Markup Language",
-              "optionC": "Hyper Text Multiple Language",
-              "optionD": "Hyper Tool Multi Language",
-              "correctAnswerIndex": 1,
-              "explanation": "HTML stands for Hyper Text Markup Language."
-            }
-          ]
-        },
-        {
-          "title": "Web Technologies",
-          "difficulty": "Easy",
-          "description": "HTML, CSS and HTTP basics",
-          "time_limit": 15,
-          "questions": [
+              "questionText": "Which layer is responsible for routing in OSI model?",
+              "optionA": "Physical",
+              "optionB": "Data Link",
+              "optionC": "Network",
+              "optionD": "Transport",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
             {
-              "questionText": "What does HTML stand for?",
-              "optionA": "Hyper Text Preprocessor",
-              "optionB": "Hyper Text Markup Language",
-              "optionC": "Hyper Text Multiple Language",
-              "optionD": "Hyper Tool Multi Language",
+              "questionText": "What is the size of IPv4 address?",
+              "optionA": "16 bits",
+              "optionB": "32 bits",
+              "optionC": "64 bits",
+              "optionD": "128 bits",
               "correctAnswerIndex": 1,
-              "explanation": "HTML stands for Hyper Text Markup Language."
+              "explanation": ""
+            },
+            {
+              "questionText": "Which protocol is used for email?",
+              "optionA": "HTTP",
+              "optionB": "FTP",
+              "optionC": "SMTP",
+              "optionD": "TCP",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "Full form of TCP:",
+              "optionA": "Transfer Control Protocol",
+              "optionB": "Transmission Control Protocol",
+              "optionC": "Transfer Communication Protocol",
+              "optionD": "Transmission Communication Protocol",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Which device works at Network layer?",
+              "optionA": "Hub",
+              "optionB": "Switch",
+              "optionC": "Router",
+              "optionD": "Bridge",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "What is the default port for HTTP?",
+              "optionA": "21",
+              "optionB": "25",
+              "optionC": "80",
+              "optionD": "443",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "Which topology has a central node?",
+              "optionA": "Bus",
+              "optionB": "Ring",
+              "optionC": "Star",
+              "optionD": "Mesh",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "DNS stands for:",
+              "optionA": "Domain Name System",
+              "optionB": "Domain Network System",
+              "optionC": "Digital Name System",
+              "optionD": "Digital Network System",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "Which protocol is connectionless?",
+              "optionA": "TCP",
+              "optionB": "UDP",
+              "optionC": "HTTP",
+              "optionD": "FTP",
+              "correctAnswerIndex": 1,
+              "explanation": ""
             }
           ]
         },
         {
           "title": "Software Engineering",
-          "difficulty": "Easy",
-          "description": "SDLC models and Testing",
+          "difficulty": "Medium",
+          "description": "Practice questions for Software Engineering",
           "time_limit": 15,
           "questions": [
             {
-              "questionText": "What does HTML stand for?",
-              "optionA": "Hyper Text Preprocessor",
-              "optionB": "Hyper Text Markup Language",
-              "optionC": "Hyper Text Multiple Language",
-              "optionD": "Hyper Tool Multi Language",
+              "questionText": "Which is a software development model?",
+              "optionA": "Waterfall",
+              "optionB": "River",
+              "optionC": "Ocean",
+              "optionD": "Stream",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "What does SDLC stand for?",
+              "optionA": "Software Development Life Cycle",
+              "optionB": "System Development Life Cycle",
+              "optionC": "Software Design Life Cycle",
+              "optionD": "System Design Life Cycle",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "Which phase comes first in SDLC?",
+              "optionA": "Design",
+              "optionB": "Testing",
+              "optionC": "Requirements",
+              "optionD": "Coding",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
+            {
+              "questionText": "What is white box testing?",
+              "optionA": "Testing based on code",
+              "optionB": "Testing without code",
+              "optionC": "User testing",
+              "optionD": "Performance testing",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "Which is an agile methodology?",
+              "optionA": "Waterfall",
+              "optionB": "Scrum",
+              "optionC": "Spiral",
+              "optionD": "V-Model",
               "correctAnswerIndex": 1,
-              "explanation": "HTML stands for Hyper Text Markup Language."
+              "explanation": ""
+            },
+            {
+              "questionText": "What is regression testing?",
+              "optionA": "Testing new features",
+              "optionB": "Re-testing after changes",
+              "optionC": "Performance testing",
+              "optionD": "Security testing",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "Which diagram is used in UML?",
+              "optionA": "Flow chart",
+              "optionB": "Use case diagram",
+              "optionC": "ER diagram",
+              "optionD": "Decision tree",
+              "correctAnswerIndex": 1,
+              "explanation": ""
+            },
+            {
+              "questionText": "What is the main purpose of testing?",
+              "optionA": "Find defects",
+              "optionB": "Write code",
+              "optionC": "Design system",
+              "optionD": "Deploy software",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "Which is a version control system?",
+              "optionA": "Git",
+              "optionB": "Java",
+              "optionC": "Python",
+              "optionD": "MySQL",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "What is SRS document?",
+              "optionA": "Software Requirements Specification",
+              "optionB": "System Requirements Specification",
+              "optionC": "Software Research Specification",
+              "optionD": "System Research Specification",
+              "correctAnswerIndex": 0,
+              "explanation": ""
             }
           ]
         },
         {
           "title": "Cloud Computing",
           "difficulty": "Medium",
-          "description": "AWS, Azure and Cloud services",
+          "description": "Practice questions for Cloud Computing",
           "time_limit": 15,
           "questions": [
             {
-              "questionText": "What does HTML stand for?",
-              "optionA": "Hyper Text Preprocessor",
-              "optionB": "Hyper Text Markup Language",
-              "optionC": "Hyper Text Multiple Language",
-              "optionD": "Hyper Tool Multi Language",
-              "correctAnswerIndex": 1,
-              "explanation": "HTML stands for Hyper Text Markup Language."
-            }
-          ]
-        },
-        {
-          "title": "Cybersecurity Basics",
-          "difficulty": "Medium",
-          "description": "Encryption, Firewalls and Security threats",
-          "time_limit": 15,
-          "questions": [
+              "questionText": "Which is a cloud service model?",
+              "optionA": "SaaS",
+              "optionB": "DaaS",
+              "optionC": "NaaS",
+              "optionD": "All of these",
+              "correctAnswerIndex": 3,
+              "explanation": ""
+            },
             {
-              "questionText": "What does HTML stand for?",
-              "optionA": "Hyper Text Preprocessor",
-              "optionB": "Hyper Text Markup Language",
-              "optionC": "Hyper Text Multiple Language",
-              "optionD": "Hyper Tool Multi Language",
+              "questionText": "What does IaaS stand for?",
+              "optionA": "Internet as a Service",
+              "optionB": "Infrastructure as a Service",
+              "optionC": "Information as a Service",
+              "optionD": "Integration as a Service",
               "correctAnswerIndex": 1,
-              "explanation": "HTML stands for Hyper Text Markup Language."
-            }
-          ]
-        },
-        {
-          "title": "Mobile App Development",
-          "difficulty": "Easy",
-          "description": "Android and iOS basics",
-          "time_limit": 15,
-          "questions": [
+              "explanation": ""
+            },
             {
-              "questionText": "What does HTML stand for?",
-              "optionA": "Hyper Text Preprocessor",
-              "optionB": "Hyper Text Markup Language",
-              "optionC": "Hyper Text Multiple Language",
-              "optionD": "Hyper Tool Multi Language",
-              "correctAnswerIndex": 1,
-              "explanation": "HTML stands for Hyper Text Markup Language."
-            }
-          ]
-        },
-        {
-          "title": "Artificial Intelligence",
-          "difficulty": "Hard",
-          "description": "Neural Networks and AI concepts",
-          "time_limit": 15,
-          "questions": [
+              "questionText": "Which company provides AWS?",
+              "optionA": "Google",
+              "optionB": "Microsoft",
+              "optionC": "Amazon",
+              "optionD": "IBM",
+              "correctAnswerIndex": 2,
+              "explanation": ""
+            },
             {
-              "questionText": "What does HTML stand for?",
-              "optionA": "Hyper Text Preprocessor",
-              "optionB": "Hyper Text Markup Language",
-              "optionC": "Hyper Text Multiple Language",
-              "optionD": "Hyper Tool Multi Language",
-              "correctAnswerIndex": 1,
-              "explanation": "HTML stands for Hyper Text Markup Language."
-            }
-          ]
-        },
-        {
-          "title": "Machine Learning",
-          "difficulty": "Hard",
-          "description": "Supervised and Unsupervised learning",
-          "time_limit": 15,
-          "questions": [
+              "questionText": "What is PaaS?",
+              "optionA": "Platform as a Service",
+              "optionB": "Product as a Service",
+              "optionC": "Process as a Service",
+              "optionD": "Protocol as a Service",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
             {
-              "questionText": "What does HTML stand for?",
-              "optionA": "Hyper Text Preprocessor",
-              "optionB": "Hyper Text Markup Language",
-              "optionC": "Hyper Text Multiple Language",
-              "optionD": "Hyper Tool Multi Language",
-              "correctAnswerIndex": 1,
-              "explanation": "HTML stands for Hyper Text Markup Language."
-            }
-          ]
-        },
-        {
-          "title": "Blockchain Basics",
-          "difficulty": "Medium",
-          "description": "Decentralization and Cryptography",
-          "time_limit": 15,
-          "questions": [
+              "questionText": "Which is a public cloud provider?",
+              "optionA": "AWS",
+              "optionB": "Private cloud",
+              "optionC": "Hybrid cloud",
+              "optionD": "Community cloud",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
             {
-              "questionText": "What does HTML stand for?",
-              "optionA": "Hyper Text Preprocessor",
-              "optionB": "Hyper Text Markup Language",
-              "optionC": "Hyper Text Multiple Language",
-              "optionD": "Hyper Tool Multi Language",
-              "correctAnswerIndex": 1,
-              "explanation": "HTML stands for Hyper Text Markup Language."
-            }
-          ]
-        },
-        {
-          "title": "Git and Version Control",
-          "difficulty": "Easy",
-          "description": "Branching, Merging and Commits",
-          "time_limit": 15,
-          "questions": [
+              "questionText": "What is virtualization?",
+              "optionA": "Creating virtual resources",
+              "optionB": "Creating physical resources",
+              "optionC": "Deleting resources",
+              "optionD": "None of these",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
             {
-              "questionText": "What does HTML stand for?",
-              "optionA": "Hyper Text Preprocessor",
-              "optionB": "Hyper Text Markup Language",
-              "optionC": "Hyper Text Multiple Language",
-              "optionD": "Hyper Tool Multi Language",
-              "correctAnswerIndex": 1,
-              "explanation": "HTML stands for Hyper Text Markup Language."
+              "questionText": "Which service is provided by Azure?",
+              "optionA": "Virtual Machines",
+              "optionB": "Physical Machines",
+              "optionC": "Hardware",
+              "optionD": "None of these",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "What is scalability in cloud?",
+              "optionA": "Ability to scale resources",
+              "optionB": "Fixed resources",
+              "optionC": "Limited resources",
+              "optionD": "None of these",
+              "correctAnswerIndex": 0,
+              "explanation": ""
+            },
+            {
+              "questionText": "Which is a cloud deployment model?",
+              "optionA": "Public",
+              "optionB": "Private",
+              "optionC": "Hybrid",
+              "optionD": "All of these",
+              "correctAnswerIndex": 3,
+              "explanation": ""
+            },
+            {
+              "questionText": "What is cloud storage?",
+              "optionA": "Storing data on cloud",
+              "optionB": "Storing data locally",
+              "optionC": "Deleting data",
+              "optionD": "None of these",
+              "correctAnswerIndex": 0,
+              "explanation": ""
             }
           ]
         }

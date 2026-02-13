@@ -32,7 +32,8 @@ public class PerformanceActivity extends AppCompatActivity {
     }
 
     private void loadPerformanceData() {
-        List<QuizResult> history = QuizHistoryManager.getQuizResults(this);
+        String userId = com.simats.prepace.UserProfileManager.getInstance(this).getUserId();
+        List<QuizResult> history = QuizHistoryManager.getQuizResults(this, userId);
         List<String> categories = new ArrayList<>();
         categories.add("Aptitude");
         categories.add("Reasoning");

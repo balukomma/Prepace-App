@@ -25,7 +25,8 @@ public class AchievementsActivity extends AppCompatActivity {
         android.widget.LinearLayout container = findViewById(R.id.llAchievementsList);
         container.removeAllViews(); // Clear static includes
         
-        java.util.List<AchievementManager.Achievement> list = AchievementManager.checkAchievements(this);
+        String userId = com.simats.prepace.UserProfileManager.getInstance(this).getUserId();
+        java.util.List<AchievementManager.Achievement> list = AchievementManager.checkAchievements(this, userId);
         int unlockedCount = 0;
         
         android.view.LayoutInflater inflater = android.view.LayoutInflater.from(this);

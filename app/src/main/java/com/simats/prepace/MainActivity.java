@@ -13,6 +13,8 @@ public class MainActivity extends AppCompatActivity {
     @SuppressWarnings("deprecation")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        // Handle the splash screen transition.
+        setTheme(R.style.Theme_Prepace);
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
@@ -47,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         // Navigation Delay
         new android.os.Handler(android.os.Looper.getMainLooper()).postDelayed(() -> {
             animHandler.removeCallbacks(animRunnable); // Cleanup animation
-            startActivity(new android.content.Intent(MainActivity.this, OnboardingActivity.class));
+            startActivity(new android.content.Intent(MainActivity.this, LoginActivity.class));
             if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.UPSIDE_DOWN_CAKE) {
                 overrideActivityTransition(OVERRIDE_TRANSITION_OPEN, android.R.anim.fade_in, android.R.anim.fade_out);
             } else {
